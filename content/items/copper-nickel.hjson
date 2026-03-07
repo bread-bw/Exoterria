@@ -1,0 +1,8 @@
+name: Copper-Nickel
+description: "An ore blend of copper and nickel. Can be separated from each other for more complex usage."
+hardness: 0.6
+cost: 0.5
+alwaysUnlocked: true
+color: 8f8d87
+research: core-equinox
+hiddenOnPlanets: [serpulo, erekir]

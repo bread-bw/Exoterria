@@ -1,0 +1,19 @@
+name: Methane
+description: Used to power up countless exoterrian architexture. 
+heatCapacity: 50
+explosiveness: 0.2
+temperature: 1
+coolant: false
+gas: true
+color: ffffff00
+flammability: 2
+gasColor: ffffff00
+barColor: ffffff33
+incinerable: false
+lightColor: ffffff00
+research: {
+  parent: platinum
+  objectives: [ 
+    gaseous-extractor
+  ]
+}

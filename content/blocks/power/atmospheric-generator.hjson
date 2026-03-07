@@ -1,0 +1,35 @@
+type: ConsumeGenerator
+name: Atmospheric Generator
+description: Burns methane to create powahhh.
+size: 1
+category: power
+research: gaseous-extractor
+squareSprite: false
+requirements: [
+  platinum/20
+  copper/35
+]
+consumes: {
+  liquid: methane/0.2
+}
+powerProduction: 0.35
+itemDuration: 90
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.02
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+researchCostMultiplier: 0.5

@@ -1,0 +1,8 @@
+name: Nickel
+description: "A vital material in basic armour, reinforcing and chemical reactions."
+hardness: 0.4
+cost: 0.5
+alwaysUnlocked: false
+color: 8f8d87
+research: copper-nickel
+hiddenOnPlanets: [serpulo, erekir]

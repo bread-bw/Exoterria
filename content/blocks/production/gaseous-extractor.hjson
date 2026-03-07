@@ -1,0 +1,22 @@
+type: AttributeCrafter
+attribute: heat
+name: Gaseous Extractor
+description: Extracts methane from vent deposits.
+size: 3
+hasLiquids: true
+squareSprite: false
+outputLiquid: methane/0.33
+displayEfficiencyScale: 1
+baseEfficiency: 0
+squareSprite: false
+minEfficiency: 1
+researchCostMultiplier: 0.5
+category: crafting
+research: core-equinox
+requirements: [
+  copper/70
+  platinum/45
+  zinc/10
+]
+ambientSound: hum
+ambientSoundVolume: 0.07
