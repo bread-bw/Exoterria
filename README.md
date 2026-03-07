@@ -1,2 +1,3 @@
-# Mindustry-mod-template-hjson
-copyable
+# Exoterria
+
+I tried gng 
