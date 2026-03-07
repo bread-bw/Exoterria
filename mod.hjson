@@ -1,16 +1,16 @@
 // file name very used in logic like template-block.
-name: "template"
+name: "exoterria"
 
-displayName: "Mod Template"
-repo: "Fat-Bird-Owner/Mindustry-mod-template-hjson"
-subtitle: ""
-author: ""
+displayName: "Exoterria"
+repo: "bread-bw/Exoterria"
+subtitle: "Dont let the scrap get to you!"
+author: "bread-bw"
 
-description: ""
+description: "Semi arid planet with a deep history..."
 
 iosCompatible: true
-version: "v1"
-minGameVersion: "154.3"
+version: "0.1 Beta"
+minGameVersion: "154"
 dependencies: []
 hidden: false
 
