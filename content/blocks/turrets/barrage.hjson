@@ -1,0 +1,97 @@
+type: ItemTurret
+name: Barrage
+description: A little defense turret. Made from basic materials to aid against any foes. Fires "barrages" of shells.
+size: 1
+reload: 13
+shoot: {
+	type: ShootSpread
+  shots: 4
+	spread: 3
+}	
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.216
+}
+inaccuracy: 7
+range: 135
+category: turret
+outlineColor: 42413e
+research: {
+  parent: core-equinox
+  requirements: [
+    capper/250  
+  ]
+}
+researchCostMultiplier: 0.05
+requirements: [
+  capper/50
+  zinc/10
+]
+ammoTypes: {
+  nickel: {
+    type: BasicBulletType
+    width: 10
+    height: 11
+    speed: 3
+    lifetime: 45
+    collidesGround: true
+    collidesAir: false
+    ammoMultiplier: 5
+    damage: 8
+  }
+  zinc: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    speed: 4
+    lifetime: 34
+    ammoMultiplier: 4
+    collidesGround: true
+    collidesAir: false
+    damage: 7
+    reloadMultiplier: 0.9
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragRandomSpread: 0
+    fragBullets: 2
+    fragBullet: {
+      type: BasicBulletType
+      damage: 2
+      pierce: true
+      buildingDamageMultiplier: 0.25
+      pierceBuilding: false
+      }
+  }
+  platinum: {
+    type: BasicBulletType
+    width: 13
+    height: 16
+    speed: 2
+    lifetime: 68
+    ammoMultiplier: 3
+    collidesGround: true
+    collidesAir: false
+    damage: 14
+    reloadMultiplier: 0.7
+    pierce: true
+    pierceCap: 3
+  }
+    scrap: {
+    type: BasicBulletType
+    width: 5
+    height: 6
+    speed: 4
+    lifetime: 34
+    ammoMultiplier: 8
+    collidesGround: true
+    collidesAir: false
+    damage: 4
+    reloadMultiplier: 1.3
+    weaveMag: 2
+	  weaveScale: 9
+  }
+}

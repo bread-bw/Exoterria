@@ -1,0 +1,40 @@
+researchCostMultiplier: 0.4
+type: UnitAssembler
+name: Tank Production facility
+description: Creates tank units using payloads. Requires power.
+size: 7
+category: units
+droneType: drone-a
+research: core-equinox
+requirements: [
+  capper/100
+  platinum/55
+  zinc/30
+]
+plans: [
+   {
+    type: AssemblerUnitPlan
+    unit: truquinox
+    requirements: [
+      barrage/1
+      zinc-wall/4
+    ]
+    time: 1000
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: trinnectolops
+    requirements: [
+      enlighten/1
+      platinum-wall-large/2
+      copper-wall-large/2
+      zinc-wall/4
+    ]
+    time: 1700
+  }
+]
+squareSprite: false
+consumes: {
+  power: 1.25
+}
+areaSize: 15

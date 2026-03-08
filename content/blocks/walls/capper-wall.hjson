@@ -1,0 +1,13 @@
+type: Wall
+name: Copper wall
+description: A basic 1x1 wall made with copper.
+size: 1
+armor: 0
+health: 500
+squareSprite: true
+requirements: [
+  capper/4
+]
+research: core-equinox
+category: defense
+researchCostMultiplier: 0.5

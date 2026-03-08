@@ -14,7 +14,7 @@ researchCostMultiplier: 0.5
 category: crafting
 research: core-equinox
 requirements: [
-  copper/70
+  capper/70
   platinum/45
   zinc/10
 ]

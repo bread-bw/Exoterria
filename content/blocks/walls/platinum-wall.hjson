@@ -1,0 +1,14 @@
+type: Wall
+name: Platinum wall
+description: A decent 1x1 wall.
+size: 1
+armor: 1
+health: 900
+squareSprite: true
+requirements: [
+  platinum/4
+  capper/1
+]
+research: zinc-wall-large
+category: defense
+researchCostMultiplier: 0.5

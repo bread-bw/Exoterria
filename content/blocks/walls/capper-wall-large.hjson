@@ -1,0 +1,13 @@
+type: Wall
+name: Large Copper Wall
+description: A basic large wall made of Copper.
+size: 2
+health: 2000
+armor: 0
+category: defense
+squareSprite: true
+research: copper-wall
+requirements: [
+  copper/20
+] 
+researchCostMultiplier: 0.5

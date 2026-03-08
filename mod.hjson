@@ -9,7 +9,7 @@ author: "bread-bw"
 description: "Semi arid planet with a deep history..."
 
 iosCompatible: true
-version: "0.1 Beta"
+version: "0.1.1 Beta"
 minGameVersion: "154"
 dependencies: []
 hidden: false

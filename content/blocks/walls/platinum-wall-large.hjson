@@ -1,0 +1,14 @@
+type: Wall
+name: Large Platinum wall
+description: Good 2x2 wall.
+size: 2
+health: 3600
+armor: 2
+category: defense
+squareSprite: true
+research: platinum-wall
+requirements: [
+  platinum/16
+  capper/4
+] 
+researchCostMultiplier: 0.5

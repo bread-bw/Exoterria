@@ -1,0 +1,14 @@
+type: Wall
+name: Large Zinc wall
+description: A basic large wall made of Zinc.
+size: 2
+health: 2400
+armor: 0
+category: defense
+squareSprite: true
+research: zinc-wall
+requirements: [
+  zinc/12
+  nickel/8
+] 
+researchCostMultiplier: 0.5

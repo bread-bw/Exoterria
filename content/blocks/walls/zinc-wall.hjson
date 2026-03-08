@@ -1,0 +1,14 @@
+type: Wall
+name: Pionide wall
+description: A basic 1x1 wall made with zinc.
+size: 1
+armor: 0
+health: 600
+squareSprite: true
+requirements: [
+  zinc/3
+  nickel/2
+]
+research: capper-wall-large
+category: defense
+researchCostMultiplier: 0.5

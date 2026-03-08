@@ -7,7 +7,7 @@ research: gaseous-extractor
 squareSprite: false
 requirements: [
   platinum/20
-  copper/35
+  capper/35
 ]
 consumes: {
   liquid: methane/0.2

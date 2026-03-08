@@ -1,0 +1,119 @@
+localizedName: Exoterria
+description: A semi arid planet with a deep history...
+alwaysUnlocked: true
+mesh: [
+ {
+    //water
+    type: NoiseMesh
+    planet: exoterria
+    divisions: 5
+    seed: 7
+    radius: 1.229
+    color1: 587d89
+    color2: 5e95a8
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //remants-biome
+    type: NoiseMesh
+    planet: exoterria
+    divisions: 5
+    radius: 1.22
+    seed: 94
+    color1: 655656
+    color2: 3e3e3e
+    octaves: 3.7
+    persistence: 0.6
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: exoterria
+   speed: 1.60
+   radius: 0.5
+   divisions: 6
+   color: eafffd7e
+   octaves: 1
+   persistence: 0.1
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: exoterria
+   speed: 0.465
+   radius: 0.11
+   divisions: 4
+   color: eafffd7e
+   octaves: 4
+   persistence: 1
+   scl: 0.6
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: exoterria
+   speed: 0.891
+   radius: 0.1
+   divisions: 7
+   color: eafffd7e
+   octaves: 5
+   persistence: 0.3
+   scl: 1.7
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 4
+  persistence: 0.52
+  scale: 31
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+orbitRadius: 30
+sectorSize: 2
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 3
+radius: 1
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.5
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: 666314
+iconColor: 666314
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-equinox
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "capper",
+  "zinc",  
+  "platinum",
+  "copper-nickel", 
+  "nickel", 
+  "scrap"
+]

@@ -1,0 +1,67 @@
+type: tank
+name: Truquinox
+description: Fires barraged salvos of several EMP shells. Heavily armoured but slow.
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 44413c
+speed: 1.5
+rotateSpeed: 4
+health: 750
+armor: 5
+itemCapacity: 0
+hitSize: 13
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: truquinox-weapon
+    reload: 23
+    rotate: true
+    mirror: false
+    inacuracy: 5
+    shoot: {
+	   type: ShootSpread
+	   shots: 3
+	   spread: 2
+	  }	
+    bullet: {
+      type: ArtilleryBulletType
+      height: 6
+      width: 6
+      speed: 3
+      lifetime: 80
+      splashDamage: 5
+      splashDamageRadius: 23
+      status: shocked 
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragBullets: 1
+      fragBullet: {
+        type: BasicBulletType
+        damage: 2
+        pierce: true
+        buildingDamageMultiplier: 0.25
+        pierceBuilding: false
+      }
+    }
+  }
+]
+research: {
+  parent: tank-production-facility
+  objectives: [ 
+    tank-production-facility
+  ]
+}
+researchCostMultiplier: 1.5
