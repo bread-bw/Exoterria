@@ -1,0 +1,5 @@
+name: Corroding(Znic)
+damage: 0.05
+damageMultiplier: 0.9
+healthMultiplier: 0.85
+affinity: irradiated

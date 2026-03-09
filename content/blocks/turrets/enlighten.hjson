@@ -14,16 +14,20 @@ range: 200
 category: turret
 outlineColor: 42413e
 research: {
-  parent: barrage
+  parent: reach
   requirements: [
-    capper/300
-    platinum/100 
+    nickel/450
+    capper/750
+    platinum/330
+    zinc/100
   ]
 }
 researchCostMultiplier: 0.05
 requirements: [
-  capper/75
-  platinum/50
+    nickel/200
+    capper/350
+    platinum/65
+    zinc/20
 ]
 ammoTypes: {
   zinc: {
@@ -39,6 +43,7 @@ ammoTypes: {
     splashDamage: 30
     splashDamageRadius: 20
     reloadMultiplier: 1
+    status: corrading
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
@@ -80,7 +85,7 @@ ammoTypes: {
     collidesAir: false
     damage: 63
     splashDamage: 74
-    status: corroded
+    status: irradiated
     splashDamageRadius: 34
     reloadMultiplier: 0.7
   }

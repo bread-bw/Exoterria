@@ -1,0 +1,56 @@
+type: ContinuousLiquidTurret
+name: Accetedon
+description: Creates a very high pressure liquid or gas jet.
+size: 2
+category: turret
+outlineColor: 42413e
+outlineColor: 42413e
+liquidConsumed: 0.1
+targetInterval: 5
+targetUnderBlocks: false
+range: 160
+targetAir: true
+shootY: 4
+researchCostMultiplier: 0.5
+shootSound: none
+loopSoundVolume: 0.6
+research: {
+  parent: barrage
+  requirements: [
+    nickel/250
+    capper/450
+    zinc/150
+  ]
+}
+researchCostMultiplier: 0.05
+requirements: [
+  capper/150
+  nickel/80
+  zinc/65
+]
+ammoTypes: {
+  methane: {
+    width: 1.2
+    drawFlare: false
+    hitColor: ffffffCC
+    type: ContinuousFlameBulletType
+    damage: 2
+    length: 160
+    knockback: 2
+    pierceCap: 3
+    status: burning
+    lightColor: ffffffCC
+  }
+  melted-sulfur: {
+    width: 1.5
+    drawFlare: false
+    hitColor: e2cf7aCC
+    type: ContinuousFlameBulletType
+    damage: 5
+    length: 160
+    knockback: 4
+    pierceCap: 7
+    lightColor: e2cf7aCC
+    status: corrading
+  }
+}

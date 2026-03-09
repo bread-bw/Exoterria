@@ -1,0 +1,99 @@
+type: ItemTurret
+name: Volley
+description: Sends vollys of shells over insane distances.
+size: 3
+category: turret
+research: {
+  parent: barrage
+  requirements: [
+    capper/300
+    nickel/150
+  ]
+}
+researchCostMultiplier: 0.05
+shootSound: artillery
+requirements: [
+  capper/65
+  nickel/20
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.05
+}
+outlineColor: 42413e
+targetAir: false
+targetGround: true
+reload: 240
+range: 210
+velocityRnd: 0.32
+inaccuracy: 15
+shoot: {
+  shots: 15
+}	
+ammoTypes: {
+  scrop: {
+    type: ArtilleryBulletType
+    width: 5
+    height: 8
+    speed: 3
+    lifetime: 70
+    splashDamage: 38
+    splashDamageRadius: 12
+    fragLifeMin: 1
+    fragLifeMax: 3
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragRandomSpread: 4
+    fragBullets: 3
+    fragBullet: {
+      type: BasicBulletType
+      damage: 7
+      pierce: true
+      pierceBuilding: false
+      status: correding
+      }
+  }
+  zinc: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 3
+    lifetime: 70
+    splashDamage: 51
+    splashDamageRadius: 42
+    status: correding
+    fragLifeMin: 1
+    fragLifeMax: 5
+    fragVelocityMin: 1
+    fragVelocityMax: 2
+    fragRandomSpread: 0
+    fragBullets: 6
+    fragBullet: {
+      type: BasicBulletType
+      damage: 14
+      status: correding
+      }
+  }
+  capper: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 3
+    lifetime: 70
+    splashDamage: 44
+    splashDamageRadius: 25
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragRandomSpread: 0
+    fragBullets: 4
+    fragBullet: {
+      type: BasicBulletType
+      damage: 8
+      status: correding
+      }  
+  }
+}

@@ -16,8 +16,8 @@ plans: [
     type: AssemblerUnitPlan
     unit: truquinox
     requirements: [
-      barrage/1
-      zinc-wall/4
+      exoterria-barrage/1
+      exoterria-zinc-wall/4
     ]
     time: 1000
   }
@@ -25,10 +25,10 @@ plans: [
     type: AssemblerUnitPlan
     unit: trinnectolops
     requirements: [
-      enlighten/1
-      platinum-wall-large/2
-      copper-wall-large/2
-      zinc-wall/4
+      exoterria-enlighten/1
+      exoterria-platinum-wall-large/2
+      exoterria-capper-wall-large/2
+      exoterria-zinc-wall/4
     ]
     time: 1700
   }

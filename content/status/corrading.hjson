@@ -1,0 +1,5 @@
+name: Corroding
+damage: 0.1
+damageMultiplier: 0.8
+healthMultiplier: 0.55
+affinity: irradiated

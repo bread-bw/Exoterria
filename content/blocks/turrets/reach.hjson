@@ -1,0 +1,122 @@
+type: ItemTurret
+name: Reach
+description: Reaches out to the enemy by sending a high velocity bullet at them lmao.
+size: 3
+reload: 400
+inaccuracy: 0
+range: 350
+category: turret
+outlineColor: 42413e
+research: {
+  parent: calcine
+  requirements: [
+    nickel/375
+    capper/650
+    platinum/300
+    zinc/150
+  ]
+}
+researchCostMultiplier: 0.05
+requirements: [
+  capper/230
+  nickel/145
+  platinum/125
+  zinc/75
+]
+consumes: {
+  liquid: methane/0.1
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+ammoTypes: {
+  nickel: {
+    type: BasicBulletType
+    width: 6
+    height: 8
+    speed: 5
+    lifetime: 75
+    ammoMultiplier: 6
+    collidesGround: true
+    collidesAir: false
+    damage: 370
+    reloadMultiplier: 1
+    pierce: true
+    pierceCap: 2
+    fragLifeMin: 1
+    fragLifeMax: 5
+    fragVelocityMin: 1
+    fragVelocityMax: 2
+    fragRandomSpread: 1
+    fragBullets: 7
+    fragBullet: {
+      type: BasicBulletType
+      damage: 20
+      pierce: true
+      buildingDamageMultiplier: 0.55
+      pierceBuilding: false
+      }
+  }
+  uranium: {
+    type: BasicBulletType
+    width: 7
+    height: 10
+    speed: 4
+    lifetime: 93
+    ammoMultiplier: 4
+    collidesGround: true
+    collidesAir: false
+    damage: 895
+    reloadMultiplier: 0.7
+    pierce: true
+    pierceCap: 4
+    pierceArmor: true
+    knockback: 1
+    status: irradiated
+    fragLifeMin: 1
+    fragLifeMax: 2
+    fragVelocityMin: 1
+    fragVelocityMax: 2
+    fragRandomSpread: 1
+    fragBullets: 4
+    fragBullet: {
+      type: BasicBulletType
+      damage: 50
+      pierce: true
+      buildingDamageMultiplier: 0.55
+      pierceBuilding: false
+      }
+  }
+  platinum: {
+    type: BasicBulletType
+    width: 8
+    height: 9
+    speed: 5
+    lifetime: 75
+    ammoMultiplier: 3
+    collidesGround: true
+    collidesAir: false
+    damage: 720
+    reloadMultiplier: 0.85
+    pierce: true
+    pierceCap: 7
+    pierceArmor: true
+    knockback: 2
+    fragLifeMin: 1
+    fragLifeMax: 2
+    fragVelocityMin: 1
+    fragVelocityMax: 3
+    fragRandomSpread: 1
+    fragBullets: 3
+    fragBullet: {
+      type: BasicBulletType
+      damage: 35
+      pierce: true
+      buildingDamageMultiplier: 0.55
+      pierceBuilding: false
+      }
+  }
+}

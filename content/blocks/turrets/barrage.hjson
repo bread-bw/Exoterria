@@ -80,7 +80,7 @@ ammoTypes: {
     pierce: true
     pierceCap: 3
   }
-    scrap: {
+    scrop: {
     type: BasicBulletType
     width: 5
     height: 6
