@@ -1,12 +1,12 @@
-name: Melted Sulfur
+name: Liquid Sulfur
 description: eeee. 
 heatCapacity: 2
 explosiveness: 0
-temperature: 0.3
+temperature: 1.0
 coolant: false
 gas: false
 color: ffffff00
-flammability: 2
+flammability: 0.4
 gasColor: ffffff00
 barColor: ffffff33
 incinerable: false
