@@ -1,0 +1,68 @@
+type: tank
+name: Tralectoc 
+description: Fires a 3 shot slavo of focused shells of doom and despair. Heavily armoured but slow.
+hitSize: 34
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 44413c
+speed: 0.8
+rotateSpeed: 1.8
+health: 5900
+armor: 18
+itemCapacity: 0
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: tralectoc-weapon
+    reload: 200
+    rotate: true
+    mirror: false
+    inacuracy: 0
+    shoot: {
+	   shots: 3
+	   shotDelay: 10
+    }	
+    bullet: {
+      type: BasicBulletType
+      height: 9
+      width: 9
+      speed: 9
+      lifetime: 38
+      damage: 470
+      pierce: true
+      pierceCap: 5
+    fragLifeMin: 1
+    fragLifeMax: 2
+    fragVelocityMin: 1
+    fragVelocityMax: 2
+    fragRandomSpread: 1
+    fragBullets: 4
+    fragBullet: {
+      type: BasicBulletType
+      damage: 20
+      pierce: true
+      splashDamage: 6
+      splashDamageRadius: 18
+      buildingDamageMultiplier: 0.55
+      pierceBuilding: false
+      }
+    }
+  }
+]
+research: {
+  parent: tank-production-facility
+  objectives: [ 
+    tank-production-facility
+  ]
+}
+researchCostMultiplier: 1.5
