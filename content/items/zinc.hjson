@@ -2,6 +2,7 @@ name: Zinc
 description: "A material that is good at chemical based actions such as batteries."
 hardness: 0.6
 cost: 0.5
+charge: 0.2
 alwaysUnlocked: false
 color: 8f8d87
 research: copper-nickel
