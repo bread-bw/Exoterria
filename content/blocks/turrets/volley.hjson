@@ -30,7 +30,10 @@ range: 210
 velocityRnd: 0.32
 inaccuracy: 15
 shoot: {
+  shootType: shootSpread
   shots: 15
+  shotDelay: 2
+  spread: 3
 }	
 ammoTypes: {
   scrop: {
@@ -52,7 +55,6 @@ ammoTypes: {
       damage: 7
       pierce: true
       pierceBuilding: false
-      status: correding
       }
   }
   zinc: {
@@ -63,7 +65,7 @@ ammoTypes: {
     lifetime: 70
     splashDamage: 51
     splashDamageRadius: 42
-    status: correding
+    status: charged
     fragLifeMin: 1
     fragLifeMax: 5
     fragVelocityMin: 1
@@ -73,27 +75,26 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       damage: 14
-      status: correding
+      status: charged
       }
   }
-  capper: {
+  nickel: {
     type: ArtilleryBulletType
     width: 7
     height: 9
     speed: 3
     lifetime: 70
-    splashDamage: 44
-    splashDamageRadius: 25
+    splashDamage: 32
+    splashDamageRadius: 54
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
     fragRandomSpread: 0
-    fragBullets: 4
+    fragBullets: 12
     fragBullet: {
       type: BasicBulletType
       damage: 8
-      status: correding
       }  
   }
 }
