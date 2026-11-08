@@ -14,7 +14,7 @@ outlineColor: 44413c
 shootType: {
   type: ContinuousLaserBulletType
   length: 176
-  damage: 16
+  damage: 18
   width: 2
   incendChance: 0
   incendAmount: 0
@@ -33,12 +33,12 @@ shootType: {
     shootEffect: none
     hitEffect: none
     despawnEffect: none
-    fragBullets: 1
+    fragBullets: 5
     fragRandomSpread: 0
     fragBullet: {
       type: LaserBulletType
       length: 176
-      damage: 40
+      damage: 25
       colors: [6b6763, a6a29f, ffffff]
       width: 7
       sideAngle: 45
@@ -70,5 +70,5 @@ aimChangeSpeed: 1.2
 rotateSpeed: 2.2
 shootY: 3.5
 consumes: {
-  power: 3.5
+  power: 3.8
 }
