@@ -34,7 +34,7 @@ ammoTypes: {
     drawFlare: false
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
-    damage: 2
+    damage: 3
     length: 160
     knockback: 2
     pierceCap: 3
@@ -46,7 +46,7 @@ ammoTypes: {
     drawFlare: false
     hitColor: e2cf7aCC
     type: ContinuousFlameBulletType
-    damage: 5
+    damage: 7
     length: 160
     knockback: 4
     pierceCap: 7
