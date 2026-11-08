@@ -5,12 +5,12 @@ treadPullOffset: 3
 omniMovement: false
 faceTarget: false
 outlineColor: 44413c
-speed: 1.5
-rotateSpeed: 4
-health: 750
-armor: 5
+speed: 1.1
+rotateSpeed: 2
+health: 680
+armor: 6
 itemCapacity: 0
-hitSize: 13
+hitSize: 16
 treadRects: [
   {
     x: 9
@@ -39,7 +39,7 @@ weapons: [
       width: 6
       speed: 3
       lifetime: 80
-      splashDamage: 5
+      splashDamage: 8
       splashDamageRadius: 23
       status: shocked 
       fragLifeMin: 1
@@ -50,7 +50,7 @@ weapons: [
       fragBullets: 1
       fragBullet: {
         type: BasicBulletType
-        damage: 2
+        damage: 6
         pierce: true
         buildingDamageMultiplier: 0.25
         pierceBuilding: false
