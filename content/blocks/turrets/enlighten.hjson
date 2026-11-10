@@ -45,7 +45,7 @@ ammoTypes: {
     reloadMultiplier: 1
     status: corrading
     backColor: B3B5CE
-    frontColor: B3B5CE
+    frontColor: D2D5DA
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
