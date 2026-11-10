@@ -12,15 +12,10 @@ requirements: [
 ]
 outlineColor: 44413c
 shootType: {
-  type: ContinuousLaserBulletType
+  type: PointLaserBulletType‎
   length: 176
-  damage: 18
+  damageInterval: 18
   width: 2
-  incendChance: 0
-  incendAmount: 0
-  incendSpread: 0
-  statusDuration: 120
-  colors: [6b6763, 827f7c, a6a29f, cfcbc6, f5f0ec]
   shake: 0.5
   intervalBullets: 1
   bulletInterval: 20
@@ -34,7 +29,7 @@ shootType: {
     hitEffect: none
     despawnEffect: none
     fragBullets: 5
-    fragRandomSpread: 0
+    fragRandomSpread: 2
     fragBullet: {
       type: LaserBulletType
       length: 176
@@ -43,7 +38,7 @@ shootType: {
       width: 7
       sideAngle: 45
       sideLength: 32
-      sideWidth: 3
+      sideWidth: 2
       pierce: true
       pierceCap: 3
       fragBullets: 3
@@ -53,8 +48,8 @@ shootType: {
       hitSound: spark
       fragBullet: {
         type: LightningBulletType
-        damage: 5
-        lightningLength: 22
+        damage: 3
+        lightningLength: 10
         lightningLengthRand: 3
         lightningColor: 6b6763
       }
