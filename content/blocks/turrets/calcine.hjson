@@ -36,9 +36,18 @@ shootType: {
     fragBullets: 3
     fragRandomSpread: 2
     fragBullet: {
-      type: ExplosionBulletType
+      type: BasicBulletType
+      damage: 5
       splashDamage: 34
       splashDamageRadius: 12
+      length: 1
+      width: 1
+      glow: 3
+      trailLength: 4
+      trailColor: FF7700
+      trailWidth: 2
+      backColor: FF7700
+      frontColor: FF7700
       knockback: 1
       fragBullets: 3
       fragRandomSpread: 0
