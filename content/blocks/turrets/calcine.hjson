@@ -14,16 +14,16 @@ requirements: [
 outlineColor: 44413c
 shootType: {
   type: PointLaserBulletType
-  damage: 80                 
-  damageInterval: 10
+  damage: 84                 
+  damageInterval: 7
   color: 6b6763              
   hitColor: a6a29f
   shake: 0.5
   beamEffect: colorTrail
   beamEffectInterval: 4
   beamEffectSize: 4
-  intervalBullets: 1
-  bulletInterval: 180
+  intervalBullets: 2
+  bulletInterval: 25
   intervalRandomSpread: 26
   intervalBullet: {
     instantDisappear: true
@@ -40,8 +40,9 @@ shootType: {
       damage: 5
       splashDamage: 34
       splashDamageRadius: 12
-      length: 1
-      width: 1
+      length: 6
+      width: 6
+      hitEffect: scatheExplosion
       glow: 3
       trailLength: 4
       trailColor: FF7700
@@ -57,7 +58,7 @@ shootType: {
       fragBullet: {
         type: LightningBulletType
         damage: 10
-        lightningLength: 4
+        lightningLength: 30
         lightningLengthRand: 3
         lightningColor: 6b6763
       }
