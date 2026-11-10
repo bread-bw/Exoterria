@@ -55,6 +55,8 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       damage: 2
+      backColor: B3B5CE
+      frontColor: D2D5DA
       pierce: true
       buildingDamageMultiplier: 0.25
       pierceBuilding: false
