@@ -4,6 +4,6 @@ hardness: 0.6
 cost: 0.5
 charge: 0.2
 alwaysUnlocked: false
-color: 8f8d87
+color: B3B5CE
 research: copper-nickel
 hiddenOnPlanets: [serpulo, erekir]
