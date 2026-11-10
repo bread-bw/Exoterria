@@ -38,6 +38,8 @@ ammoTypes: {
     lifetime: 45
     collidesGround: true
     collidesAir: false
+    backColor: 888896
+    frontColor: 888896
     ammoMultiplier: 5
     damage: 8
   }
@@ -52,6 +54,8 @@ ammoTypes: {
     collidesAir: false
     damage: 7
     reloadMultiplier: 0.9
+    backColor: B3B5CE
+    frontColor: B3B5CE
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
