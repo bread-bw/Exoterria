@@ -1,0 +1,8 @@
+name: Sulfur
+description: "An interesting material used for a diverse range of purposes."
+hardness: 0.2
+cost: 0.5
+alwaysUnlocked: false
+color: 8f8d87
+research: liquid-sulfur
+hiddenOnPlanets: [serpulo, erekir]
