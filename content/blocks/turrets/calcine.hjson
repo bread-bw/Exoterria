@@ -1,4 +1,5 @@
 type: ContinuousTurret
+health: 500
 name: Calcine
 description: A continuous turret focusing power into a molten beam, the beam destabilises during impact,creating shock waves and lightning discharges.
 size: 2
@@ -22,7 +23,7 @@ shootType: {
   beamEffectInterval: 4
   beamEffectSize: 4
   intervalBullets: 1
-  bulletInterval: 20
+  bulletInterval: 180
   intervalRandomSpread: 26
   intervalBullet: {
     instantDisappear: true
@@ -32,7 +33,7 @@ shootType: {
     shootEffect: none
     hitEffect: none
     despawnEffect: none
-    fragBullets: 2
+    fragBullets: 3
     fragRandomSpread: 2
     fragBullet: {
       type: ExplosionBulletType
