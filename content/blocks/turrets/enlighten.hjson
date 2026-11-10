@@ -44,6 +44,8 @@ ammoTypes: {
     splashDamageRadius: 38
     reloadMultiplier: 1
     status: corrading
+    backColor: B3B5CE
+    frontColor: B3B5CE
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
