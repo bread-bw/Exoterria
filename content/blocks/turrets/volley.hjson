@@ -78,6 +78,8 @@ ammoTypes: {
       type: BasicBulletType
       damage: 14
       status: charged
+      backColor: B3B5CE
+      frontColor: D2D5DA
       }
   }
   nickel: {
@@ -98,7 +100,9 @@ ammoTypes: {
     fragBullets: 12
     fragBullet: {
       type: BasicBulletType
+      backColor: 888896
+      frontColor: A1A1AB
       damage: 8
-      }  
+     }  
   }
 }
