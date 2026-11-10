@@ -67,7 +67,7 @@ ammoTypes: {
     splashDamageRadius: 32
     status: charged
     backColor: B3B5CE
-    frontColor: B3B5CE
+    frontColor: D2D5DA
     fragLifeMin: 1
     fragLifeMax: 5
     fragVelocityMin: 1
@@ -89,7 +89,7 @@ ammoTypes: {
     splashDamage: 34
     splashDamageRadius: 61
     backColor: 888896
-    frontColor: 888896
+    frontColor: A1A1AB
     fragLifeMin: 1
     fragLifeMax: 3
     fragVelocityMin: 1
