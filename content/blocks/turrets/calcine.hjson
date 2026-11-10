@@ -42,8 +42,10 @@ shootType: {
       splashDamageRadius: 12
       length: 6
       width: 6
-      hitEffect: scatheExplosion
-      glow: 3
+      lifetime: 5
+      hitEffect: scatheExplosionSmall
+      light: 3
+      lightColor: FF7700
       trailLength: 4
       trailColor: FF7700
       trailWidth: 2
@@ -58,7 +60,7 @@ shootType: {
       fragBullet: {
         type: LightningBulletType
         damage: 10
-        lightningLength: 30
+        lightningLength: 5
         lightningLengthRand: 3
         lightningColor: 6b6763
       }
