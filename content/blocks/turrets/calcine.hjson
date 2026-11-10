@@ -43,7 +43,6 @@ shootType: {
       length: 6
       width: 6
       lifetime: 5
-      hitEffect: scatheExplosionSmall
       light: 3
       lightColor: FF7700
       trailLength: 4
