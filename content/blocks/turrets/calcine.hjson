@@ -12,11 +12,15 @@ requirements: [
 ]
 outlineColor: 44413c
 shootType: {
-  type: PointLaserBulletType‎
-  length: 176
-  damageInterval: 18
-  width: 2
+  type: PointLaserBulletType
+  damage: 80                 
+  damageInterval: 10
+  color: 6b6763              
+  hitColor: a6a29f
   shake: 0.5
+  beamEffect: colorTrail
+  beamEffectInterval: 4
+  beamEffectSize: 4
   intervalBullets: 1
   bulletInterval: 20
   intervalRandomSpread: 26
