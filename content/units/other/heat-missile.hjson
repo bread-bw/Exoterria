@@ -8,7 +8,7 @@ useUnitCap: false
 engineSize: 0.5
 engineOffset: 2.5
 lifetime: 145
-rotateSpeed: 0
+rotateSpeed: 2
 hitSize: 4
 trailLength: 2
 autoFindTarget: false
@@ -22,15 +22,14 @@ drawCell: false
 outlines: true
 outlineRadius: 2
 outlineColor: 44413c
-range: 1
+range: 5
 hidden: true  
 weapons: [
   {
     reload: 60
-    shake: 0
     shootOnDeath: false
     mirror: true
-    shootCone: 45
+    shootCone: 90
     shake: 1
     bullet: {
       type: BasicBulletType
@@ -38,7 +37,7 @@ weapons: [
       splashDamageRadius: 18
       lifetime: 1
   intervalBullets: 1
-  bulletInterval: 25
+  bulletInterval: 60
   intervalRandomSpread: 0
   intervalBullet: {
     instantDisappear: true
