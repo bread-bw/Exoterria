@@ -1,6 +1,6 @@
 type: tank
 name: Tralectoc 
-description: Fires a 3 shot slavo of focused shells of doom and despair. Heavily armoured but slow.
+description: Fires missiles designed to penetrate deep into fortifications. Heavily armoured but slow.
 hitSize: 34
 treadPullOffset: 3
 omniMovement: false
