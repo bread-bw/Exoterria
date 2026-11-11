@@ -16,7 +16,7 @@ stepSoundVolume: 0.35
       x: -5
       name: pioneer-weapon
       recoil: 0.4
-      shootCone: 45
+      shootCone: 10
         y: 1
         reload: 54
         rotate: false
@@ -26,7 +26,6 @@ stepSoundVolume: 0.35
           shotDelay: 2
         }
         shootSound: shootBig
-        shootSoundVolume: 0.7
         bullet: {
           type: BasicBulletType
           speed: 5
@@ -54,7 +53,6 @@ stepSoundVolume: 0.35
         rotate: false
         mirror: false 
         shootSound: missile
-        shootSoundVolume: 0.7
         shoot: {
           shots: 2
           shotDelay: 20
