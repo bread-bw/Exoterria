@@ -22,7 +22,7 @@ drawCell: false
 outlines: true
 outlineRadius: 2
 outlineColor: 44413c
-range: 2
+range: 0.1
 hidden: true  
 weapons: [
   {
@@ -34,10 +34,10 @@ weapons: [
     shake: 1
     bullet: {
       type: BasicBulletType
-      damage: 565
-      pierce: true
-      pierceCap: 2
-      pierceDamageFactor: 750
+      splashDamage: 92
+      splashDamageRadius: 18
+      lifetime: 1
+  killShooter: true
   intervalBullets: 1
   bulletInterval: 25
   intervalRandomSpread: 0
@@ -53,8 +53,10 @@ weapons: [
     fragRandomSpread: 0
     fragBullet: {
       type: BasicBulletType
-      splashDamage: 68
-      splashDamageRadius: 12
+      damage: 650
+      pierce: true
+      pierceCap: 2
+      pierceDamageFactor: 800
       length: 6
       width: 6
       lifetime: 1
@@ -73,10 +75,10 @@ weapons: [
       hitSound: spark
       fragBullet: {
         type: BasicBulletType
-        damage: 420
+        damage: 520
       pierce: true
       pierceCap: 2
-      pierceDamageFactor: 550
+      pierceDamageFactor: 650
       light: 3
       lightColor: FF7700
       trailLength: 4
@@ -90,10 +92,10 @@ weapons: [
       fragSpread: 0
       fragBullet: {
         type: BasicBulletType
-        damage: 365
+        damage: 465
       pierce: true
       pierceCap: 2
-      pierceDamageFactor: 470
+      pierceDamageFactor: 570
       light: 3
       lightColor: FF7700
       trailLength: 4
@@ -105,12 +107,13 @@ weapons: [
       fragBullets: 1
       fragRandomSpread: 0
       fragSpread: 0
+      frag
       fragBullet: {
         type: BasicBulletType
-        damage: 280
+        damage: 380
       pierce: true
       pierceCap: 2
-      pierceDamageFactor: 395
+      pierceDamageFactor: 495
       light: 3
       lightColor: FF7700
       trailLength: 4
