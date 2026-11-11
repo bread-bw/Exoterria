@@ -3,9 +3,9 @@ name: Tempest
 description: Fires pelting munitions alongside  EMP sticky bombs
 speed: 0.6
 flying: false
-health: 715
-armor: 
-hitSize: 10
+health: 2650
+armor: 8
+hitSize: 24
 outlineColor: 44413c
 mechLegColor: 44413c
 stepSound: mechStepSmall
@@ -13,24 +13,25 @@ stepSoundVolume: 0.35
   weapons: [
     {
       top: false
-      x: -5
-      name: pioneer-weapon
-      recoil: 0.4
+      x: -7
+      name: tempest-weapon
+      recoil: 0.6
+      inaccuracy: 1
       shootCone: 10
         y: 1
-        reload: 54
+        reload: 50
         rotate: false
         mirror: false 
         shoot: {
-          shots: 3
+          shots: 4
           shotDelay: 2
         }
         shootSound: shootBig
         bullet: {
           type: BasicBulletType
-          speed: 5
+          speed: 6
           lifetime: 29
-          damage: 9
+          damage: 21
           width: 5
           height: 7
           light: 3
@@ -44,29 +45,31 @@ stepSoundVolume: 0.35
     }
     {
       top: false
-      x: 5
-      name: pioneer-weapon-emp
+      x: 7
+      name: tempest-weapon-emp
       recoil: 0.4
       shootCone: 45
         y: 1
-        reload: 70
+        reload: 76
         rotate: false
         mirror: false 
         shootSound: missile
         shoot: {
-          shots: 2
-          shotDelay: 20
+          shots: 3
+          shotDelay: 15
           shotSpread: 2
         }
         bullet: {
           type: BasicBulletType
-          speed: 2
-          lifetime: 85
-          damage: 10
-          splashDamage: 51
-          splashDamageRadius: 22
+          speed: 3
+          lifetime: 58
+          damage: 20
+          splashDamage: 82
+          splashDamageRadius: 31
           sticky: true
           stickyExtraLifetime: 30
+          homingPower: 0.05
+          homingDelay: 3
           status: charged
           trailLength: 8
           trailWidth: 3
