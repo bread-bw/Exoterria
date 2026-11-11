@@ -23,10 +23,10 @@ weapons: [
     x: 0
     y: 1
     name: tralectoc-turret
-    reload: 185
-    rotate: false
+    reload: 240
+    rotate: true
     mirror: false
-    top: false
+    top: true
     bullet: {
     spawnUnit: heat-missile
   }
