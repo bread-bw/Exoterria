@@ -20,43 +20,15 @@ treadRects: [
   }
 ]
 weapons: [
-  {
     x: 0
     y: 1
-    name: tralectoc-weapon
-    reload: 200
-    rotate: true
+    name: tralectoc-turret
+    reload: 185
+    rotate: false
     mirror: false
-    inacuracy: 0
-    shoot: {
-	   shots: 3
-	   shotDelay: 10
-    }	
+    top: false
     bullet: {
-      type: BasicBulletType
-      height: 9
-      width: 9
-      speed: 9
-      lifetime: 38
-      damage: 470
-      pierce: true
-      pierceCap: 5
-    fragLifeMin: 1
-    fragLifeMax: 2
-    fragVelocityMin: 1
-    fragVelocityMax: 2
-    fragRandomSpread: 1
-    fragBullets: 4
-    fragBullet: {
-      type: BasicBulletType
-      damage: 20
-      pierce: true
-      splashDamage: 6
-      splashDamageRadius: 18
-      buildingDamageMultiplier: 0.55
-      pierceBuilding: false
-      }
-    }
+    spawnUnit: heat-missile
   }
 ]
 research: {
