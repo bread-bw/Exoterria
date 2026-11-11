@@ -27,7 +27,6 @@ weapons: [
     reload: 240
     rotate: true
     mirror: false
-    top: true
     bullet: {
     spawnUnit: heat-missile
     }
