@@ -29,112 +29,12 @@ weapons: [
     reload: 60
     shootOnDeath: false
     mirror: true
-    shootCone: 90
+    shootCone: 360
     shake: 1
     bullet: {
-      type: BasicBulletType
-      splashDamage: 92
-      splashDamageRadius: 18
-      lifetime: 1
-  intervalBullets: 1
-  bulletInterval: 60
-  intervalRandomSpread: 0
-  intervalBullet: {
-    instantDisappear: true
-    damage: 0
-    despawnSound: spark
-    hitSound: spark
-    shootEffect: none
-    hitEffect: none
-    despawnEffect: none
-    fragBullets: 1
-    fragRandomSpread: 0
-    fragBullet: {
-      type: BasicBulletType
-      damage: 650
-      pierce: true
-      pierceCap: 2
-      pierceDamageFactor: 800
-      length: 6
-      width: 6
-      lifetime: 1
-      light: 3
-      lightColor: FF7700
-      trailLength: 4
-      trailColor: FF7700
-      trailWidth: 2
-      backColor: FF7700
-      frontColor: FF7700
-      knockback: 1
-      fragLifeMin: 10
-    fragLifeMax: 20
-    fragVelocityMin: 7
-    fragVelocityMax: 10   
-      fragBullets: 1
-      fragRandomSpread: 0
-      fragSpread: 20
-      despawnSound: spark
-      hitSound: spark
-      fragBullet: {
-        type: BasicBulletType
-        damage: 520
-      pierce: true
-      pierceCap: 2
-      pierceDamageFactor: 650
-      light: 3
-      lightColor: FF7700
-      trailLength: 4
-      trailColor: FF7700
-      trailWidth: 2
-      backColor: FF7700
-      frontColor: FF7700
-      fragOnHit: true
-      fragBullets: 1
-      fragRandomSpread: 0
-      fragSpread: 0
-      fragLifeMin: 10
-    fragLifeMax: 20
-    fragVelocityMin: 7
-    fragVelocityMax: 10   
-      fragBullet: {
-        type: BasicBulletType
-        damage: 465
-      pierce: true
-      pierceCap: 2
-      pierceDamageFactor: 570
-      light: 3
-      lightColor: FF7700
-      trailLength: 4
-      trailColor: FF7700
-      trailWidth: 2
-      backColor: FF7700
-      frontColor: FF7700
-      fragOnHit: true
-      fragBullets: 1
-      fragRandomSpread: 0
-      fragSpread: 0
-      fragLifeMin: 10
-    fragLifeMax: 20
-    fragVelocityMin: 7
-    fragVelocityMax: 10   
-      fragBullet: {
-        type: BasicBulletType
-        damage: 380
-      pierce: true
-      pierceCap: 2
-      pierceDamageFactor: 495
-      light: 3
-      lightColor: FF7700
-      trailLength: 4
-      trailColor: FF7700
-      trailWidth: 2
-      backColor: FF7700
-      frontColor: FF7700
-  }
-  }
-  }
-  }
-  }
-  }
-  } 
+      type: ExplosionBulletType
+      splashDamage: 450
+      splashDamageRadius: 42
+      }
+   } 
 ]
