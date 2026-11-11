@@ -53,7 +53,7 @@ weapons: [
     fragRandomSpread: 0
     fragBullet: {
       type: BasicBulletType
-      splashDamage: 12
+      splashDamage: 68
       splashDamageRadius: 12
       length: 6
       width: 6
@@ -77,30 +77,47 @@ weapons: [
       pierce: true
       pierceCap: 2
       pierceDamageFactor: 550
+      light: 3
+      lightColor: FF7700
+      trailLength: 4
+      trailColor: FF7700
+      trailWidth: 2
+      backColor: FF7700
+      frontColor: FF7700
       fragOnHit: true
       fragBullets: 1
       fragRandomSpread: 0
       fragSpread: 0
-      despawnSound: spark
-      hitSound: spark
       fragBullet: {
         type: BasicBulletType
         damage: 365
       pierce: true
       pierceCap: 2
       pierceDamageFactor: 470
+      light: 3
+      lightColor: FF7700
+      trailLength: 4
+      trailColor: FF7700
+      trailWidth: 2
+      backColor: FF7700
+      frontColor: FF7700
       fragOnHit: true
-  fragBullets: 1
+      fragBullets: 1
       fragRandomSpread: 0
       fragSpread: 0
-      despawnSound: spark
-      hitSound: spark
       fragBullet: {
         type: BasicBulletType
         damage: 280
       pierce: true
       pierceCap: 2
       pierceDamageFactor: 395
+      light: 3
+      lightColor: FF7700
+      trailLength: 4
+      trailColor: FF7700
+      trailWidth: 2
+      backColor: FF7700
+      frontColor: FF7700
   }
   }
   }
