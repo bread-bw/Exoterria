@@ -37,7 +37,6 @@ weapons: [
       splashDamage: 92
       splashDamageRadius: 18
       lifetime: 1
-  killShooter: true
   intervalBullets: 1
   bulletInterval: 25
   intervalRandomSpread: 0
