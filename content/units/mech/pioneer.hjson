@@ -18,12 +18,12 @@ stepSoundVolume: 0.35
       recoil: 0.4
       shootCone: 45
         y: 1
-        reload: 34
+        reload: 40
         rotate: false
         mirror: false 
         shoot: {
           shots: 3
-          shotDelay: 4
+          shotDelay: 3
         }
         shootSound: shootBig
         shootSoundVolume: 0.7
@@ -31,7 +31,7 @@ stepSoundVolume: 0.35
           type: BasicBulletType
           speed: 5
           lifetime: 29
-          damage: 34
+          damage: 10
           light: 3
           lightColor: FF7700
           trailLength: 4
@@ -53,18 +53,23 @@ stepSoundVolume: 0.35
         mirror: false 
         shootSound: missile
         shootSoundVolume: 0.7
+        shoot: {
+          shots: 2
+          shotDelay: 2
+          shotSpread: 2
+        }
         bullet: {
           type: BasicBulletType
           speed: 2
           lifetime: 85
           damage: 10
-          splashDamage: 43
-          splashDamageRadius: 17
+          splashDamage: 82
+          splashDamageRadius: 32
           sticky: true
-          stickyExtraLifetime: 20
+          stickyExtraLifetime: 30
           status: charged
-          trailLength: 4
-          trailWidth: 2
+          trailLength: 8
+          trailWidth: 3
         }
     }
 ]
