@@ -22,7 +22,7 @@ drawCell: false
 outlines: true
 outlineRadius: 2
 outlineColor: 44413c
-range: 0.1
+range: 1
 hidden: true  
 weapons: [
   {
