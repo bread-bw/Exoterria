@@ -1,9 +1,9 @@
 type: mech
 name: Pioneer
-description: Fires pelting munitions alongside EMP sticky bombs
+description: Fires pelting munitions alongside  EMP sticky bombs
 speed: 0.7
 flying: false
-health: 795
+health: 715
 armor: 5
 hitSize: 10
 outlineColor: 44413c
@@ -18,12 +18,12 @@ stepSoundVolume: 0.35
       recoil: 0.4
       shootCone: 45
         y: 1
-        reload: 40
+        reload: 54
         rotate: false
         mirror: false 
         shoot: {
           shots: 3
-          shotDelay: 3
+          shotDelay: 2
         }
         shootSound: shootBig
         shootSoundVolume: 0.7
@@ -31,7 +31,9 @@ stepSoundVolume: 0.35
           type: BasicBulletType
           speed: 5
           lifetime: 29
-          damage: 10
+          damage: 9
+          width: 5
+          height: 7
           light: 3
           lightColor: FF7700
           trailLength: 4
@@ -55,7 +57,7 @@ stepSoundVolume: 0.35
         shootSoundVolume: 0.7
         shoot: {
           shots: 2
-          shotDelay: 2
+          shotDelay: 20
           shotSpread: 2
         }
         bullet: {
@@ -63,8 +65,8 @@ stepSoundVolume: 0.35
           speed: 2
           lifetime: 85
           damage: 10
-          splashDamage: 82
-          splashDamageRadius: 32
+          splashDamage: 51
+          splashDamageRadius: 22
           sticky: true
           stickyExtraLifetime: 30
           status: charged
