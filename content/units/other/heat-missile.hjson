@@ -68,6 +68,10 @@ weapons: [
       backColor: FF7700
       frontColor: FF7700
       knockback: 1
+      fragLifeMin: 10
+    fragLifeMax: 20
+    fragVelocityMin: 7
+    fragVelocityMax: 10   
       fragBullets: 1
       fragRandomSpread: 0
       fragSpread: 20
@@ -90,6 +94,10 @@ weapons: [
       fragBullets: 1
       fragRandomSpread: 0
       fragSpread: 0
+      fragLifeMin: 10
+    fragLifeMax: 20
+    fragVelocityMin: 7
+    fragVelocityMax: 10   
       fragBullet: {
         type: BasicBulletType
         damage: 465
@@ -107,7 +115,10 @@ weapons: [
       fragBullets: 1
       fragRandomSpread: 0
       fragSpread: 0
-      frag
+      fragLifeMin: 10
+    fragLifeMax: 20
+    fragVelocityMin: 7
+    fragVelocityMax: 10   
       fragBullet: {
         type: BasicBulletType
         damage: 380
