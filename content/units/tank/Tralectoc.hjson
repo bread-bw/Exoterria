@@ -20,6 +20,7 @@ treadRects: [
   }
 ]
 weapons: [
+    {
     x: 0
     y: 1
     name: tralectoc-turret
@@ -29,6 +30,7 @@ weapons: [
     top: true
     bullet: {
     spawnUnit: heat-missile
+    }
   }
 ]
 research: {
