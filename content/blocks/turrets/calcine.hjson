@@ -14,7 +14,7 @@ requirements: [
 outlineColor: 44413c
 shootType: {
   type: PointLaserBulletType
-  damage: 84                 
+  damage: 35                 
   damageInterval: 7
   color: 6b6763              
   hitColor: a6a29f
@@ -33,12 +33,12 @@ shootType: {
     shootEffect: none
     hitEffect: none
     despawnEffect: none
-    fragBullets: 3
+    fragBullets: 2
     fragRandomSpread: 2
     fragBullet: {
       type: BasicBulletType
-      damage: 5
-      splashDamage: 34
+      damage: 2
+      splashDamage: 12
       splashDamageRadius: 12
       length: 6
       width: 6
@@ -51,14 +51,14 @@ shootType: {
       backColor: FF7700
       frontColor: FF7700
       knockback: 1
-      fragBullets: 3
+      fragBullets: 2
       fragRandomSpread: 0
       fragSpread: 20
       despawnSound: spark
       hitSound: spark
       fragBullet: {
         type: LightningBulletType
-        damage: 10
+        damage: 5
         lightningLength: 5
         lightningLengthRand: 3
         lightningColor: 6b6763
