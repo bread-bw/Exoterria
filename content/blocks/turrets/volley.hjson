@@ -2,6 +2,10 @@ type: ItemTurret
 name: Volley
 description: Sends vollys of shells over insane distances.
 size: 3
+drawer: {
+  type: DrawTurret
+  basePrefix: -foundation 
+}
 category: turret
 research: {
   parent: barrage

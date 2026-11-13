@@ -5,7 +5,7 @@ treadPullOffset: 3
 omniMovement: falseFires missiles designed to weaken fortifications. Heavily armoured but slow.
 faceTarget: false
 outlineColor: 44413c
-speed: 1.1
+speed: 0.95
 rotateSpeed: 2
 health: 680
 armor: 6

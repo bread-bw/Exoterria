@@ -2,6 +2,10 @@ type: ItemTurret
 name: Lynx
 description: Fires a slowly,but surely disintertergrating bullet that pierces targets and is guided with electro-magnetic assistance based on materials.
 size: 3
+drawer: {
+  type: DrawTurret
+  basePrefix: -foundation 
+}
 reload: 68
 inaccuracy: 1
 range: 230
@@ -55,7 +59,7 @@ ammoTypes: {
     homingPower: 0.14
     intervalBullets: 2
     bulletInterval: 15
-    intervalSpread: 20
+    intervalSpread: 10
     intervalBullet: {
     intervalAngle: 135
     instantDisappear: false
@@ -72,8 +76,8 @@ ammoTypes: {
     trailWidth: 2
     fragLifeMin: 1
     fragLifeMax: 1
-    fragVelocityMin: 4
-    fragVelocityMax: 4
+    fragVelocityMin: 2
+    fragVelocityMax: 2
     fragSpread: 10
     fragBullets: 2
     fragBullet: {
@@ -132,7 +136,6 @@ ammoTypes: {
     trailWidth: 2
     incendChance: 1
     incendSpread: 10
-    incendAmount: 1
     homingPower: 0.08
     intervalBullets: 4
     bulletInterval: 20
@@ -142,8 +145,7 @@ ammoTypes: {
     instantDisappear: false
     damage: 18
     incendChance: 0.7
-    incendSpread: 7
-    incendAmount: 1    
+    incendSpread: 7  
     despawnSound: spark
     hitSound: spark
     shootEffect: artilleryTrail
@@ -156,8 +158,8 @@ ammoTypes: {
     trailWidth: 2
     fragLifeMin: 1
     fragLifeMax: 1
-    fragVelocityMin: 4
-    fragVelocityMax: 4
+    fragVelocityMin: 2
+    fragVelocityMax: 2
     fragSpread: 10
     fragBullets: 4
     fragBullet: {
@@ -171,14 +173,14 @@ ammoTypes: {
       trailWidth: 1      
       incendChance: 0.5
       incendSpread: 5
-      incendAmount: 0.6
+      incendAmount: 2
       buildingDamageMultiplier: 0.75
       pierceBuilding: false
       }
     }
-    fragLifeMin: 2
+    fragLifeMin: 1
     fragLifeMax: 2
-    fragVelocityMin: 2
+    fragVelocityMin: 1
     fragVelocityMax: 2
     fragRandomSpread: 3
     fragSpread: 2

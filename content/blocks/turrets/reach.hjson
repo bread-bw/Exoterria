@@ -3,6 +3,10 @@ name: Reach
 description: Reaches out to the enemy by sending a high velocity bullet at them lmao.
 size: 3
 reload: 400
+drawer: {
+  type: DrawTurret
+  basePrefix: -foundation 
+}
 inaccuracy: 0
 range: 400
 category: turret

@@ -3,6 +3,10 @@ health: 500
 name: Calcine
 description: A continuous turret focusing power into a molten beam, the beam destabilises during impact,creating shock waves and lightning discharges.
 size: 2
+drawer: {
+  type: DrawTurret
+  basePrefix: -foundation 
+}
 category: turret
 researchCostMultiplier: 0.5
 research: accetedon

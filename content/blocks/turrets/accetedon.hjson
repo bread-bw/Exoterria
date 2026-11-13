@@ -2,6 +2,10 @@ type: ContinuousLiquidTurret
 name: Accetedon
 description: Creates a very high pressure liquid or gas jet.
 size: 2
+drawer: {
+  type: DrawTurret
+  basePrefix: -foundation 
+}
 category: turret
 outlineColor: 42413e
 outlineColor: 42413e
@@ -48,6 +52,7 @@ ammoTypes: {
     type: ContinuousFlameBulletType
     damage: 7
     length: 160
+    
     knockback: 4
     pierceCap: 7
     lightColor: e2cf7aCC

@@ -1,6 +1,10 @@
 type: ItemTurret
 name: Enlighten
 description: Enligthens the enemy to not come here lol.
+drawer: {
+  type: DrawTurret
+  basePrefix: -foundation 
+}
 size: 2
 reload: 34
 shoot: {

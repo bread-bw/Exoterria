@@ -5,7 +5,7 @@ treadPullOffset: 3
 omniMovement: false
 faceTarget: false
 outlineColor: 44413c
-speed: 0.95
+speed: 0.8
 rotateSpeed: 1.9
 health: 2450
 armor: 10

@@ -1,0 +1,83 @@
+type: mech
+name: Vanguard
+description: Fires pelting munitions alongside EMP sticky bombs. Gained the ability of hovering to aid with mobility.
+speed: 0.52
+flying: false
+health: 6350
+armor: 16
+hitSize: 39
+canBoost: true
+boostMultiplier: 1.35
+drag: 0.2
+outlineColor: 44413c
+mechLegColor: 44413c
+stepSound: mechStepLarge
+stepSoundVolume: 0.35
+  weapons: [
+    {
+      top: false
+      x: -9
+      name: vanguard-weapon
+      recoil: 1
+      inaccuracy: 1
+      shootCone: 10
+        y: 1
+        reload: 62
+        rotate: false
+        mirror: false 
+        shoot: {
+          shots: 5
+          shotDelay: 2
+        }
+        shootSound: shootScatter
+        bullet: {
+          type: BasicBulletType
+          speed: 6
+          lifetime: 40
+          damage: 42
+          width: 8
+          height: 11
+          light: 3
+          lightColor: FF7700
+          trailLength: 5
+          trailColor: FF7700
+          trailWidth: 2
+          backColor: FF7700
+          frontColor: FFB200
+        }
+    }
+    {
+      top: false
+      x: 9
+      name: vanguard-weapon-emp
+      recoil: 0.4
+      inaccuracy: 1
+      shootCone: 45
+        y: 1
+        reload: 76
+        rotate: false
+        mirror: false 
+        shootSound: shootMissile
+        shoot: {
+          shots: 4
+          shotDelay: 12
+          shotSpread: 2
+        }
+        bullet: {
+          type: BasicBulletType
+          speed: 4
+          lifetime: 60
+          damage: 30
+          splashDamage: 97
+          splashDamageRadius: 41
+          sticky: true
+          stickyExtraLifetime: 30
+          homingPower: 0.1
+          homingDelay: 1
+          status: charged
+          trailLength: 8
+          trailWidth: 3
+        }
+    }
+]
+researchCostMultiplier: 1.5

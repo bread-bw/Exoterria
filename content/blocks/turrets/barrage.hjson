@@ -2,6 +2,10 @@ type: ItemTurret
 name: Barrage
 description: A little defense turret. Made from basic materials to aid against any foes. Fires "barrages" of shells.
 size: 1
+drawer: {
+  type: DrawTurret
+  basePrefix: -foundation 
+}
 reload: 13
 shoot: {
 	type: ShootSpread
