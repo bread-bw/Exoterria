@@ -4,7 +4,7 @@ description: Creates a very high pressure liquid or gas jet.
 size: 2
 drawer: {
   type: DrawTurret
-  basePrefix: -foundation 
+  basePrefix: foundation-
 }
 category: turret
 outlineColor: 42413e

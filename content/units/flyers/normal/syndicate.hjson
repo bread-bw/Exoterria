@@ -1,7 +1,7 @@
 type: flying
 name: Syndicate
 description: A light, nimble plane with little armour and a nice auto canon.
-speed: 2.85
+speed: 3.53
 accel: 0.5
 drag: 0.12
 health: 550
@@ -9,7 +9,7 @@ alwaysUnlocked: false
 itemCapacity: 35
 rotateSpeed: 4
 hitSize: 9
-armor: 4
+armor: 2
 engineOffset: 2
 flying: true
 faceTarget: false

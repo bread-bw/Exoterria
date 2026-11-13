@@ -4,7 +4,7 @@ description: A little defense turret. Made from basic materials to aid against a
 size: 1
 drawer: {
   type: DrawTurret
-  basePrefix: -foundation 
+  basePrefix: foundation- 
 }
 reload: 13
 shoot: {

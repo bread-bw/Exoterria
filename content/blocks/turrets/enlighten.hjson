@@ -1,9 +1,10 @@
 type: ItemTurret
 name: Enlighten
 description: Enligthens the enemy to not come here lol.
+targetAir: true
 drawer: {
   type: DrawTurret
-  basePrefix: -foundation 
+  basePrefix: foundation-
 }
 size: 2
 reload: 34
@@ -42,7 +43,7 @@ ammoTypes: {
     lifetime: 50
     ammoMultiplier: 4
     collidesGround: true
-    collidesAir: false
+    collidesAir: true
     damage: 34
     splashDamage: 30
     splashDamageRadius: 38
@@ -74,7 +75,7 @@ ammoTypes: {
     lifetime: 67
     ammoMultiplier: 3
     collidesGround: true
-    collidesAir: false
+    collidesAir: true
     damage: 45
     splashDamage: 33
     splashDamageRadius: 21
@@ -90,7 +91,7 @@ ammoTypes: {
     lifetime: 100
     ammoMultiplier: 3
     collidesGround: true
-    collidesAir: false
+    collidesAir: true
     damage: 78
     splashDamage: 45
     status: irradiated

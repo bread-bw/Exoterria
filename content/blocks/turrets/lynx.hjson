@@ -4,9 +4,9 @@ description: Fires a slowly,but surely disintertergrating bullet that pierces ta
 size: 3
 drawer: {
   type: DrawTurret
-  basePrefix: -foundation 
+  basePrefix: foundation-
 }
-reload: 68
+reload: 60
 inaccuracy: 1
 range: 230
 category: turret
@@ -46,10 +46,10 @@ ammoTypes: {
     ammoMultiplier: 3
     collidesGround: true
     collidesAir: true
-    damage: 115
+    damage: 145
     pierce: true
     pierceCap: 2
-    pierceDamageFactor: 175
+    pierceDamageFactor: 210
     backColor: 888896
     frontColor: A1A1AB
     trailColor: A1A1AB
@@ -74,24 +74,6 @@ ammoTypes: {
     trailColor: 888896
     trailLength: 3
     trailWidth: 2
-    fragLifeMin: 1
-    fragLifeMax: 1
-    fragVelocityMin: 2
-    fragVelocityMax: 2
-    fragSpread: 10
-    fragBullets: 2
-    fragBullet: {
-      type: BasicBulletType
-      damage: 15
-      pierce: true
-      backColor: 888896
-      frontColor: A1A1AB
-      trailColor: A1A1AB
-      trailLength: 2
-      trailWidth: 1      
-      buildingDamageMultiplier: 0.75
-      pierceBuilding: false
-      }
     }
     fragLifeMin: 2
     fragLifeMax: 2
@@ -158,8 +140,8 @@ ammoTypes: {
     trailWidth: 2
     fragLifeMin: 1
     fragLifeMax: 1
-    fragVelocityMin: 2
-    fragVelocityMax: 2
+    fragVelocityMin: 1
+    fragVelocityMax: 1
     fragSpread: 10
     fragBullets: 4
     fragBullet: {
@@ -179,9 +161,9 @@ ammoTypes: {
       }
     }
     fragLifeMin: 1
-    fragLifeMax: 2
+    fragLifeMax: 1
     fragVelocityMin: 1
-    fragVelocityMax: 2
+    fragVelocityMax: 1
     fragRandomSpread: 3
     fragSpread: 2
     fragBullets: 9

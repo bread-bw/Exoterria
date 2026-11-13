@@ -5,7 +5,7 @@ description: A continuous turret focusing power into a molten beam, the beam des
 size: 2
 drawer: {
   type: DrawTurret
-  basePrefix: -foundation 
+  basePrefix: foundation-
 }
 category: turret
 researchCostMultiplier: 0.5
