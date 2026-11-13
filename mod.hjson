@@ -3,13 +3,13 @@ name: "exoterria"
 
 displayName: "Exoterria"
 repo: "bread-bw/Exoterria"
-subtitle: "Dont let the scrap get to you!"
+subtitle: "oh no"
 author: "bread-bw"
 
 description: "Semi arid planet with a deep history..."
 
 iosCompatible: true
-version: "0.1.2 Beta"
+version: "0.1.3 Beta"
 minGameVersion: "154"
 dependencies: []
 hidden: false

@@ -2,7 +2,7 @@ type: tank
 name: Truquinox
 description: Fires barraged salvos of several EMP shells. Heavily armoured but slow.
 treadPullOffset: 3
-omniMovement: false
+omniMovement: falseFires missiles designed to weaken fortifications. Heavily armoured but slow.
 faceTarget: false
 outlineColor: 44413c
 speed: 1.1
@@ -20,41 +20,15 @@ treadRects: [
   }
 ]
 weapons: [
-  {
+    {
     x: 0
     y: 1
-    name: truquinox-weapon
-    reload: 23
+    name: truquinox-turret
+    reload: 155
     rotate: true
     mirror: false
-    inacuracy: 5
-    shoot: {
-	   type: ShootSpread
-	   shots: 3
-	   spread: 2
-	  }	
     bullet: {
-      type: ArtilleryBulletType
-      height: 6
-      width: 6
-      speed: 3
-      lifetime: 80
-      splashDamage: 8
-      splashDamageRadius: 23
-      status: shocked 
-      fragLifeMin: 1
-      fragLifeMax: 1
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      fragRandomSpread: 0
-      fragBullets: 1
-      fragBullet: {
-        type: BasicBulletType
-        damage: 6
-        pierce: true
-        buildingDamageMultiplier: 0.25
-        pierceBuilding: false
-      }
+    spawnUnit: t1-missile
     }
   }
 ]

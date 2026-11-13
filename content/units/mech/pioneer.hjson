@@ -25,7 +25,7 @@ stepSoundVolume: 0.35
           shots: 3
           shotDelay: 2
         }
-        shootSound: shootBig
+        shootSound: shootScatter
         bullet: {
           type: BasicBulletType
           speed: 5
@@ -52,7 +52,7 @@ stepSoundVolume: 0.35
         reload: 70
         rotate: false
         mirror: false 
-        shootSound: missile
+        shootSound: shootMissile
         shoot: {
           shots: 2
           shotDelay: 20

@@ -28,7 +28,7 @@ weapons: [
     rotate: true
     mirror: false
     bullet: {
-    spawnUnit: heat-missile
+    spawnUnit: t3-missile
     }
   }
 ]

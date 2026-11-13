@@ -1,0 +1,202 @@
+type: ItemTurret
+name: Lynx
+description: Fires a slowly,but surely disintertergrating bullet that pierces targets and is guided with electro-magnetic assistance based on materials.
+size: 3
+reload: 68
+inaccuracy: 1
+range: 230
+category: turret
+outlineColor: 42413e
+research: {
+  parent: enlighten
+  requirements: [
+    sulfur/230
+    nickel/750
+    platinum/449
+    zinc/450
+  ]
+}
+researchCostMultiplier: 0.09
+requirements: [
+    sulfur/130
+    nickel/550
+    platinum/335
+    zinc/300
+]
+consumes: {
+  power: 0.75
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: false
+  amount: 0.135
+}
+ammoTypes: {
+  nickel-platinum-alloy : {
+    type: BasicBulletType
+    width: 9
+    height: 8
+    speed: 5
+    lifetime: 46
+    ammoMultiplier: 3
+    collidesGround: true
+    collidesAir: true
+    damage: 115
+    pierce: true
+    pierceCap: 2
+    pierceDamageFactor: 175
+    backColor: 888896
+    frontColor: A1A1AB
+    trailColor: A1A1AB
+    trailEffect: fireSmoke
+    trailLength: 7
+    trailWidth: 2
+    homingPower: 0.14
+    intervalBullets: 2
+    bulletInterval: 15
+    intervalSpread: 20
+    intervalBullet: {
+    intervalAngle: 135
+    instantDisappear: false
+    damage: 25
+    despawnSound: spark
+    hitSound: spark
+    shootEffect: artilleryTrail
+    hitEffect: hitBulletSmall
+    despawnEffect: none
+    backColor: 888896
+    frontColor: A1A1AB
+    trailColor: 888896
+    trailLength: 3
+    trailWidth: 2
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 4
+    fragVelocityMax: 4
+    fragSpread: 10
+    fragBullets: 2
+    fragBullet: {
+      type: BasicBulletType
+      damage: 15
+      pierce: true
+      backColor: 888896
+      frontColor: A1A1AB
+      trailColor: A1A1AB
+      trailLength: 2
+      trailWidth: 1      
+      buildingDamageMultiplier: 0.75
+      pierceBuilding: false
+      }
+    }
+    fragLifeMin: 2
+    fragLifeMax: 2
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragRandomSpread: 3
+    fragSpread: 2
+    fragBullets: 6
+    fragBullet: {
+      type: BasicBulletType
+      splashDamage: 45
+      splashDamageRadius: 19
+      sticky: true
+      stickyExtraLifetime: 5
+      pierce: true
+      backColor: 888896
+      frontColor: A1A1AB
+      buildingDamageMultiplier: 0.75
+      pierceBuilding: false
+      homingPower: 0.07
+    }
+  }
+  sulfur : {
+    type: BasicBulletType
+    width: 8
+    height: 6
+    speed: 5
+    lifetime: 46
+    ammoMultiplier: 4
+    collidesGround: true
+    collidesAir: true
+    reloadMultiplier: 1.15
+    damage: 85
+    pierce: true
+    pierceCap: 1
+    pierceDamageFactor: 135
+    backColor: e0c350
+    frontColor: d4bd5c
+    trailColor: d4bd5c
+    trailEffect: fireSmoke
+    trailLength: 7
+    trailWidth: 2
+    incendChance: 1
+    incendSpread: 10
+    incendAmount: 1
+    homingPower: 0.08
+    intervalBullets: 4
+    bulletInterval: 20
+    intervalRandomSpread: 20
+    intervalBullet: {
+    intervalAngle: 145
+    instantDisappear: false
+    damage: 18
+    incendChance: 0.7
+    incendSpread: 7
+    incendAmount: 1    
+    despawnSound: spark
+    hitSound: spark
+    shootEffect: artilleryTrail
+    hitEffect: hitBulletSmall
+    despawnEffect: none
+    backColor: e0c350
+    frontColor: d4bd5c
+    trailColor: e0c350
+    trailLength: 3
+    trailWidth: 2
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 4
+    fragVelocityMax: 4
+    fragSpread: 10
+    fragBullets: 4
+    fragBullet: {
+      type: BasicBulletType
+      damage: 9
+      pierce: true
+      backColor: e0c350
+      frontColor: d4bd5c
+      trailColor: d4bd5c
+      trailLength: 2
+      trailWidth: 1      
+      incendChance: 0.5
+      incendSpread: 5
+      incendAmount: 0.6
+      buildingDamageMultiplier: 0.75
+      pierceBuilding: false
+      }
+    }
+    fragLifeMin: 2
+    fragLifeMax: 2
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragRandomSpread: 3
+    fragSpread: 2
+    fragBullets: 9
+    fragBullet: {
+      type: BasicBulletType
+      splashDamage: 23
+      splashDamageRadius: 21
+      incendChance: 0.25
+      incendSpread: 15
+      incendAmount: 2
+      sticky: true
+      stickyExtraLifetime: 5
+      pierce: true
+      backColor: e0c350
+      frontColor: d4bd5c
+      buildingDamageMultiplier: 0.75
+      pierceBuilding: false
+    }
+  }
+}
