@@ -76,7 +76,7 @@ stepSoundVolume: 0.35
           homingDelay: 1
           status: charged
           trailLength: 8
-          trailWidth: 3
+          trailWidth: 2
         }
     }
 ]

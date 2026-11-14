@@ -1,6 +1,6 @@
 type: mech
 name: Pioneer
-description: Fires pelting munitions alongside  EMP sticky bombs
+description: Fires pelting munitions alongside  EMP bombs
 speed: 0.7
 flying: false
 health: 715
@@ -65,11 +65,9 @@ stepSoundVolume: 0.35
           damage: 10
           splashDamage: 51
           splashDamageRadius: 22
-          sticky: true
-          stickyExtraLifetime: 30
           status: charged
           trailLength: 8
-          trailWidth: 3
+          trailWidth: 2
         }
     }
 ]

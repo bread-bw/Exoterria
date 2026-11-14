@@ -67,11 +67,9 @@ stepSoundVolume: 0.35
           splashDamageRadius: 31
           sticky: true
           stickyExtraLifetime: 30
-          homingPower: 0.05
-          homingDelay: 2
           status: charged
           trailLength: 8
-          trailWidth: 3
+          trailWidth: 2
         }
     }
 ]
