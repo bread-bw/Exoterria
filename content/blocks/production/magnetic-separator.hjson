@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Magnetic Separator
 description: Uses the powah of magnet to separate Copper from the Nickel, inefficent however...
 size: 2
-scaledHealth: 60
+scaledHealth: 120
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems: [
@@ -19,7 +19,7 @@ category: crafting
 research: core-equinox
 
 requirements: [
-  copper-nickel/30
+  copper-nickel/40
 ]
 ambientSound: loopGrind
 ambientSoundVolume: 0.08

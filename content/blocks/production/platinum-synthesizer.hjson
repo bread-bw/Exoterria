@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Platinum Synthesizer
+description: Uses methane and zinc, with the rapid cooling of plasticine to produce lots of platinum.
+size: 4
+scaledHealth: 650
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  platinum/6
+]
+consumes: {
+  items: [
+    zinc/10
+  ]
+  liquids: [
+    plasticine/2.2
+    methane/1.4
+  ]
+}
+craftTime: 120
+category: crafting
+research: platinum-complex
+
+requirements: [
+  zinc/30
+  steel/90
+  cobalt/115
+  capper/130
+  sulfur/80
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

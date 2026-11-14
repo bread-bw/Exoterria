@@ -1,0 +1,23 @@
+type: AttributeCrafter
+attribute: heat
+name: Pressurized Extractor
+description: Extracts methane from vent deposits.
+size: 3
+hasLiquids: true
+squareSprite: false
+outputLiquid: inpure-methane/0.82
+displayEfficiencyScale: 1
+baseEfficiency: 0
+squareSprite: false
+minEfficiency: 1
+researchCostMultiplier: 0.5
+category: crafting
+research: gaseous-extractor
+requirements: [
+  cobalt/70
+  platinum/45
+  aluminium/30
+  silicon/20
+]
+ambientSound: hum
+ambientSoundVolume: 0.07

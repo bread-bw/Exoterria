@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Quartz Condensor
+description: Uses the process of condensation to create silicia from the quartz atoms, leaves behind sulfur.
+size: 2
+scaledHealth: 125
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems:[
+    silica/1.4
+    sulfur/1
+] 
+consumes: {
+  liquids: [
+    water/0.2
+  ]
+  items: [
+    raw-quartz/1.5
+  ]
+}
+craftTime: 120
+category: crafting
+research: sulfur-solidifier
+
+requirements: [
+  capper/100
+  nickel/70
+  platinum/55
+  sulfur/25
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

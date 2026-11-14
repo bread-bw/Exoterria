@@ -6,8 +6,12 @@ drawer: {
   type: DrawTurret
   basePrefix: foundation-
 }
-reload: 60
-inaccuracy: 1
+reload: 73
+inaccuracy: 2
+shoot: {
+  shots: 2
+  shotDelay: 15
+}
 range: 230
 category: turret
 outlineColor: 42413e
@@ -18,6 +22,7 @@ research: {
     nickel/750
     platinum/449
     zinc/450
+    aluminium/300  
   ]
 }
 researchCostMultiplier: 0.09
@@ -26,9 +31,10 @@ requirements: [
     nickel/550
     platinum/335
     zinc/300
+    aluminium/150
 ]
 consumes: {
-  power: 0.75
+  power: 0.8
 }
 coolant: {
   type: ConsumeCoolant
@@ -37,7 +43,7 @@ coolant: {
   amount: 0.135
 }
 ammoTypes: {
-  nickel-platinum-alloy : {
+  aluminium : {
     type: BasicBulletType
     width: 9
     height: 8
@@ -56,7 +62,7 @@ ammoTypes: {
     trailEffect: fireSmoke
     trailLength: 7
     trailWidth: 2
-    homingPower: 0.14
+    homingPower: 0.3
     intervalBullets: 2
     bulletInterval: 15
     intervalSpread: 10
@@ -93,7 +99,7 @@ ammoTypes: {
       frontColor: A1A1AB
       buildingDamageMultiplier: 0.75
       pierceBuilding: false
-      homingPower: 0.07
+      homingPower: 0.12
     }
   }
   sulfur : {
@@ -105,7 +111,7 @@ ammoTypes: {
     ammoMultiplier: 4
     collidesGround: true
     collidesAir: true
-    reloadMultiplier: 1.15
+    reloadMultiplier: 1.3
     damage: 85
     pierce: true
     pierceCap: 1

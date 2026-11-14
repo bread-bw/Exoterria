@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Oil Freker
+description: Combines water and impure methane in the precense of raw quartz to make oil, used in making petroleum and plasticine in larger volumes.
+size: 2
+scaledHealth: 176
+squareSprite: false
+craftEffect: smeltsmoke
+outputLiquids: [
+  oil/0.9
+]
+consumes: {
+  liquids: [
+    inpure-methane/2.0
+    water/1.5
+  ]
+  items: [
+    raw-quartz/1
+  ]
+}
+craftTime: 55
+category: crafting
+research: gas-freker
+
+requirements: [
+  steel/120
+  nickel/55
+  platinum/30
+  sulfur/20
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

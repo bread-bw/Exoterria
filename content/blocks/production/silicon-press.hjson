@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Silicon Press
+description: Presses silica into silicon, uses plasticine to cool down the press. Highly efficient. Still has some by products.
+size: 2
+scaledHealth: 125
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems:[
+    silicon/2
+    bauxite/1
+] 
+consumes: {
+  liquids: [
+    plasticine/0.2
+  ]
+  items: [
+    silica/3.2
+  ]
+}
+craftTime: 180
+category: crafting
+research: quartz-condensor
+
+requirements: [
+  aluminium/100
+  nickel/70
+  platinum/55
+  sulfur/25
+  steel/10
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

@@ -27,6 +27,8 @@ requirements: [
   platinum/315
   sulfur/55
   nickel/115
+  capper/300
+  cobalt/150
 ]
 ambientSound: loopGrind
 ambientSoundVolume: 0.08

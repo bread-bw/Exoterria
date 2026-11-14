@@ -1,0 +1,13 @@
+type: Junction
+name: Missile Module
+description: Used as an attachment for tanks and other units to allow them to fire missiles.
+size: 1
+customShadow: true
+placeablePlayer: false
+requirements: [
+  bauxute/20
+  platinum/5
+]
+databaseTag: unitpart
+research: tank-production-facility
+researchCostMultiplier: 0.25

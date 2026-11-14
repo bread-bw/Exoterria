@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Aluminia Smelter
+description: Smelts Aluminia into Aluminium, with the aid of methane.
+size: 3
+scaledHealth: 445
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  aluminium/2
+]
+consumes: {
+  items: [
+    aluminia/4
+  ]
+  liquids: [
+    methane/0.76
+  ]
+}
+craftTime: 60
+category: crafting
+research: bauxite-centrifuge
+
+requirements: [
+  steel/90
+  zinc/55
+  cobalt/35
+  platinum/105
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

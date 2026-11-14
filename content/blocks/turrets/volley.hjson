@@ -12,6 +12,7 @@ research: {
   requirements: [
     capper/300
     nickel/150
+    bauxite/230
   ]
 }
 researchCostMultiplier: 0.05
@@ -19,6 +20,7 @@ shootSound: artillery
 requirements: [
   capper/65
   nickel/20
+  bauxite/115
 ]
 coolant: {
   type: ConsumeCoolant
@@ -30,7 +32,7 @@ outlineColor: 42413e
 targetAir: false
 targetGround: true
 reload: 240
-range: 210
+range: 280
 velocityRnd: 0.52
 inaccuracy: 4
 shoot: {
@@ -44,19 +46,19 @@ ammoTypes: {
     type: ArtilleryBulletType
     width: 5
     height: 8
-    speed: 3
+    speed: 4
     lifetime: 70
-    splashDamage: 38
+    splashDamage: 20
     splashDamageRadius: 12
     fragLifeMin: 1
-    fragLifeMax: 3
+    fragLifeMax: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
-    fragRandomSpread: 4
-    fragBullets: 2
+    fragRandomSpread: 3
+    fragBullets: 1
     fragBullet: {
       type: BasicBulletType
-      damage: 7
+      damage: 5
       pierce: true
       pierceBuilding: false
       }
@@ -65,22 +67,22 @@ ammoTypes: {
     type: ArtilleryBulletType
     width: 7
     height: 9
-    speed: 3
+    speed: 4
     lifetime: 70
-    splashDamage: 51
+    splashDamage: 41
     splashDamageRadius: 32
     status: charged
     backColor: B3B5CE
     frontColor: D2D5DA
     fragLifeMin: 1
-    fragLifeMax: 5
+    fragLifeMax: 1
     fragVelocityMin: 1
     fragVelocityMax: 2
     fragRandomSpread: 2
-    fragBullets: 3
+    fragBullets: 2
     fragBullet: {
       type: BasicBulletType
-      damage: 14
+      damage: 10
       status: charged
       backColor: B3B5CE
       frontColor: D2D5DA
@@ -90,16 +92,16 @@ ammoTypes: {
     type: ArtilleryBulletType
     width: 7
     height: 9
-    speed: 3
+    speed: 4
     lifetime: 70
-    splashDamage: 34
-    splashDamageRadius: 61
+    splashDamage: 29
+    splashDamageRadius: 41
     backColor: 888896
     frontColor: A1A1AB
     fragLifeMin: 1
-    fragLifeMax: 3
+    fragLifeMax: 1
     fragVelocityMin: 1
-    fragVelocityMax: 3
+    fragVelocityMax: 1
     fragRandomSpread: 3
     fragBullets: 4
     fragBullet: {

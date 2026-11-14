@@ -10,13 +10,14 @@ requirements: [
   capper/100
   platinum/55
   zinc/30
+  cobalt/50
 ]
 plans: [
    {
     type: AssemblerUnitPlan
     unit: truquinox
     requirements: [
-      exoterria-barrage/1
+      exoterria-missile-module/1
       exoterria-zinc-wall/4
     ]
     time: 1000
@@ -25,16 +26,26 @@ plans: [
     type: AssemblerUnitPlan
     unit: trinnectolops
     requirements: [
-      exoterria-enlighten/1
+      exoterria-missile-module/1
       exoterria-platinum-wall-large/2
-      exoterria-capper-wall-large/2
-      exoterria-zinc-wall/4
+      exoterria-zinc-wall/5
     ]
     time: 1700
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: tralectoc
+    requirements: [
+      exoterria-large-missile-module/1
+      exoterria-platinum-wall-large/4
+      exoterria-zinc-wall-large/3
+      exoterria-cobalt-wall-large/2
+    ]
+    time: 2350
   }
 ]
 squareSprite: false
 consumes: {
-  power: 1.25
+  power: 2.15
 }
 areaSize: 15

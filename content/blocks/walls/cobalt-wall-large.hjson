@@ -1,0 +1,14 @@
+type: Wall
+name: Cobalt wall
+description: A decent 2x2 wall.
+size: 2
+armor: 4
+health: 3200
+squareSprite: true
+requirements: [
+  cobalt/18
+  nickel/5
+]
+research: cobalt-wall
+category: defense
+researchCostMultiplier: 0.5

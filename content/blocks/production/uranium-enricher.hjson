@@ -16,6 +16,7 @@ consumes: {
   liquids: [
     petroleum/1.45
     melted-sulfur/3 
+    plasticine/2 
   ]
   power: 2.1
 }
@@ -28,6 +29,8 @@ requirements: [
   uranium/105
   sulfur/55
   nickel/125
+  silicon/300
+  alumunium/150
 ]
 ambientSound: loopGrind
 ambientSoundVolume: 0.08

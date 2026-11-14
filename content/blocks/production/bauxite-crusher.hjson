@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Bauxite Crusher
+description: Crushes raw bauxite into Bauxite and Platinum
+size: 3
+scaledHealth: 60
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  bauxite/3
+  platinum/1
+]
+consumes: {
+  items: [
+    raw-bauxite/5
+  ]
+}
+craftTime: 190
+category: crafting
+research: steel-moulder
+
+requirements: [
+  steel/90
+  zinc/55
+  nickel/35
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

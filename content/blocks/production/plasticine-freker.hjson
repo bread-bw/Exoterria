@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Plasticine Freker
+description: Destablizes oil into plasticine. Needs Sulfur and Bauxite.
+size: 3
+scaledHealth: 176
+squareSprite: false
+craftEffect: smeltsmoke
+outputLiquids: [
+  petroleum/1.2
+]
+consumes: {
+  liquids: [
+    oil/2
+  ]
+  items: [
+    sulfur/1.3
+    bauxite/3
+  ]
+  power: 1.4
+}
+craftTime: 45
+category: crafting
+research: oil-freker
+
+requirements: [
+  steel/120
+  aluminum/55
+  cobalt/30
+  sulfur/20
+  bauxite/60
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

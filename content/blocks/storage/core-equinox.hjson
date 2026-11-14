@@ -2,16 +2,18 @@ type: CoreBlock
 name: Core: Equinox
 description: The main part of any base. Lightly armoured.
 requirements: [
-  nickel-platinum-alloy/1000
+  platinum/259
   zinc/650
+  nickel/700
 ]
 isFirstTier: true
 size: 3
 squareSprite: false
 alwaysUnlocked: true
 unitType: xyn
-health: 1000
-itemCapacity: 3000
+health: 1250
+armour: 3
+itemCapacity: 4550
 unitCapModifier: 10
 category: effect
 research: {

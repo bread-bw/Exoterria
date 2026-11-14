@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Bauxite Centrifuge
+description: Uses centrifugal force to separate Bauxite into Cobalt and Aluminia.
+size: 3
+scaledHealth: 60
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  cobalt/1.1
+  aluminia/2.3
+]
+consumes: {
+  items: [
+    bauxite/5
+  ]
+}
+craftTime: 190
+category: crafting
+research: bauxite-crusher
+
+requirements: [
+  steel/120
+  capper/70
+  nickel/35
+  zinc/55
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

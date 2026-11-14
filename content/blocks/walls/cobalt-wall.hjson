@@ -1,0 +1,14 @@
+type: Wall
+name: Cobalt wall
+description: A decent 1x1 wall.
+size: 1
+armor: 2
+health: 800
+squareSprite: true
+requirements: [
+  cobalt/4
+  nickel/1
+]
+research: zinc-wall-large
+category: defense
+researchCostMultiplier: 0.5

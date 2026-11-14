@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: Atmospheric Stabilizer
+description: Sorts out unstable plasticine atoms in the air to give out water and plasticine, requires sulfur.
+size: 2
+scaledHealth: 175
+squareSprite: false
+craftEffect: smeltsmoke
+drawer: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawLiquidOutputs
+  }
+]
+liquidOutputDirections: [
+  0 
+  1 
+]
+outputLiquids: [
+  water/1.2
+  plasticine/0.8
+]
+consumes: {
+  items: [
+    sulfur/1.5
+  ]
+  power: 0.9
+}
+craftTime: 91
+category: crafting
+research: gas-freker
+
+requirements: [
+  zinc/120
+  nickel/55
+  platinum/30
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

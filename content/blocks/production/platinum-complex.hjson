@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Platinum Complex
+description: Eats up zinc, nickel and raw-bauxite to produce platinum.
+size: 2
+scaledHealth: 115
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  platinum/1
+]
+consumes: {
+  items: [
+    zinc/2
+    nickel/4
+    raw-bauxite/3
+  ]
+}
+craftTime: 213
+category: crafting
+research: core-equinox
+
+requirements: [
+  zinc/30
+  capper/90
+  iron/115
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5
