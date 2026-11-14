@@ -1,5 +1,5 @@
 type: tank
-name: Tralectoc 
+name: Tralectoc
 description: Fires missiles designed to weaken fortifications. Heavily armoured but slow.
 hitSize: 41
 treadPullOffset: 3
