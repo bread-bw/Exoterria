@@ -5,10 +5,9 @@ size: 3
 scaledHealth: 245
 squareSprite: false
 craftEffect: smeltsmoke
-outputItems: [
-  uranium-238/1.2
-  inpure-methane/0.35
-]
+outputItems: uranium-238/1.2
+outputLiquid: inpure-methane/0.35
+
 consumes: {
   items: [
     uranium/1.5

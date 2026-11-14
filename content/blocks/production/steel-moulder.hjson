@@ -4,7 +4,7 @@ description: Makes steel mate
 squareSprite: false
 craftEffect: smeltsmoke
 outputItem: steel/1
-outputLiquid: plasticine
+outputLiquid: plasticine/0.25
 consumes: {
   liquids: [
     petroleum/1.1

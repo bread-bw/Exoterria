@@ -21,7 +21,7 @@ liquidOutputDirections: [
 outputLiquids: [
   methane/0.45
   melted-sulfur/0.35
-  petroleum: 0.15
+  petroleum/0.15
 ]
 consumes: {
   liquids: [
