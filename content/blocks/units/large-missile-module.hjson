@@ -5,7 +5,7 @@ size: 2
 customShadow: true
 placeablePlayer: false
 requirements: [
-  bauxute/60
+  bauxite/60
   platinum/20
   steel/10
 ]

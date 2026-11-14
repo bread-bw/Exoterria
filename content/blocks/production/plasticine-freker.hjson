@@ -6,7 +6,7 @@ scaledHealth: 176
 squareSprite: false
 craftEffect: smeltsmoke
 outputLiquids: [
-  petroleum/1.2
+  plasticine/2.1
 ]
 consumes: {
   liquids: [
@@ -16,7 +16,7 @@ consumes: {
     sulfur/1.3
     bauxite/3
   ]
-  power: 1.4
+  power: 2.4
 }
 craftTime: 45
 category: crafting

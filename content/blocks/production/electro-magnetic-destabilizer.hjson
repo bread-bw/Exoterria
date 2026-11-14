@@ -23,7 +23,7 @@ category: crafting
 research: core-equinox
 
 requirements: [
-  siicon/105
+  silicon/105
   platinum/55
   steel/80
   nickel/120

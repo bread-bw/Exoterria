@@ -5,7 +5,7 @@ size: 1
 customShadow: true
 placeablePlayer: false
 requirements: [
-  bauxute/20
+  bauxite/20
   platinum/5
 ]
 databaseTag: unitpart
