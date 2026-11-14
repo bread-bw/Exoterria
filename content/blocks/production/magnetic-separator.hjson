@@ -1,21 +1,22 @@
 type: GenericCrafter
-name: Sulfur Solidifier
-description: Cools down the sulfur, due to inefficiencies it outputs Inpure Methane.
+name: Magnetic Separator
+description: Uses the powah of magnet to separate Copper from the Nickel, inefficent however...
 size: 2
-scaledHealth: 100
+scaledHealth: 60
 squareSprite: false
 craftEffect: smeltsmoke
-outputItem: sulfur/0.75
-outputLiquid: inpure-methane/0.45
+outputItems: [
+  nickel/0.45
+  capper/0.8
+]
 consumes: {
-  liquids: [
-    melted-sulfur/1.1
-    water/2.1
+  items: [
+    copper-nickel/2
   ]
 }
-craftTime: 160
+craftTime: 105
 category: crafting
-research: gas-freker
+research: core-equinox
 
 requirements: [
   copper-nickel/30

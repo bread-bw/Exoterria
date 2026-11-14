@@ -6,7 +6,7 @@ scaledHealth: 455
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems: [
-  depleted-platinium-uranium-alloy/1.34
+  depleted-platinum-uranium-alloy/1.34
 ]
 consumes: {
   items: [
