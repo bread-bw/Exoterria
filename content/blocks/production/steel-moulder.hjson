@@ -1,5 +1,6 @@
 type: GenericCrafter
 name: Steel Moulder
+size: 3
 description: Makes steel mate
 squareSprite: false
 craftEffect: smeltsmoke

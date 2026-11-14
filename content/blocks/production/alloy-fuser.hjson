@@ -6,7 +6,7 @@ scaledHealth: 60
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems: [
-  nickel-platinum-alloy/0.85
+  nickel-platinum-alloy/1.11
 ]
 consumes: {
   items: [

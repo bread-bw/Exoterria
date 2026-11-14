@@ -6,7 +6,7 @@ scaledHealth: 345
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems: [
-  uranium-240/0.85
+  uranium-240/1
   depleted-uranium/2
 ]
 consumes: {

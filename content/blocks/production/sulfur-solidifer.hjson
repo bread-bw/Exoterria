@@ -5,12 +5,12 @@ size: 2
 scaledHealth: 100
 squareSprite: false
 craftEffect: smeltsmoke
-outputItem: sulfur/0.75
+outputItem: sulfur/1
 outputLiquid: inpure-methane/0.45
 consumes: {
   liquids: [
     melted-sulfur/1.1
-    water/2.1
+    water/0.6
   ]
 }
 craftTime: 160
