@@ -12,6 +12,7 @@ rotateSpeed: 2
 hitSize: 4
 trailLength: 2
 autoFindTarget: false
+homingPower: 0.3
 homingDelay: 0
 circleTarget: false
 faceTarget: true

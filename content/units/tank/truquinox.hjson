@@ -1,8 +1,8 @@
 type: tank
 name: Truquinox
-description: Fires barraged salvos of several EMP shells. Heavily armoured but slow.
+description: Fires unguided missiles designed to weaken fortifications. Heavily armoured but slow.
 treadPullOffset: 3
-omniMovement: falseFires missiles designed to weaken fortifications. Heavily armoured but slow.
+omniMovement: false
 faceTarget: false
 outlineColor: 44413c
 speed: 0.95
