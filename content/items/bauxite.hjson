@@ -1,0 +1,8 @@
+name: Bauxite
+description: "its an early start."
+hardness: 1.6
+cost: 0.5
+alwaysUnlocked: false
+color: 888896
+research: raw-bauxite
+hiddenOnPlanets: [serpulo, erekir]

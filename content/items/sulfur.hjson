@@ -4,5 +4,5 @@ hardness: 0.2
 cost: 0.5
 alwaysUnlocked: false
 color: E6C229
-research: liquid-sulfur
+research: melted-sulfur
 hiddenOnPlanets: [serpulo, erekir]

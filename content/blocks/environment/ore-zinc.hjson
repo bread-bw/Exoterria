@@ -1,0 +1,6 @@
+type :  OreBlock  
+localizedName : Zinc
+itemDrop :  zinc
+hasColor : true 
+mapColor :  8f8d87  
+variants : 2

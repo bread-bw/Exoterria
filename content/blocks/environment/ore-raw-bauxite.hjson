@@ -1,0 +1,6 @@
+type :  OreBlock  
+localizedName : Raw Bauxite
+itemDrop :  raw-bauxite
+hasColor : true 
+mapColor :  8f8d87  
+variants : 3

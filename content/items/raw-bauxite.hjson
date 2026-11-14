@@ -1,0 +1,8 @@
+name: Raw Bauxite
+description: "dis shi is so dirtyyy."
+hardness: 1.6
+cost: 0.5
+alwaysUnlocked: false
+color: 888896
+research: copper-nickel
+hiddenOnPlanets: [serpulo, erekir]

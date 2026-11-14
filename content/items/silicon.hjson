@@ -1,0 +1,8 @@
+name: Silicon
+description: "silicon valley vrooo."
+hardness: 0.8
+cost: 0.5
+alwaysUnlocked: false
+color: 888896
+research: silica
+hiddenOnPlanets: [serpulo, erekir]

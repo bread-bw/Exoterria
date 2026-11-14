@@ -1,0 +1,8 @@
+name: Aluminium
+description: "lightweight metal."
+hardness: 2.1
+cost: 0.5
+alwaysUnlocked: false
+color: 888896
+research: aluminia
+hiddenOnPlanets: [serpulo, erekir]

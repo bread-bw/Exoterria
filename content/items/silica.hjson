@@ -1,0 +1,8 @@
+name: Silica
+description: "we r cookin."
+hardness: 0.4
+cost: 0.5
+alwaysUnlocked: false
+color: 888896
+research: raw-quartz
+hiddenOnPlanets: [serpulo, erekir]

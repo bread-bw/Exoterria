@@ -1,0 +1,8 @@
+name: Aluminia
+description: "Getting there but still a lil dirty gng."
+hardness: 2.1
+cost: 0.5
+alwaysUnlocked: false
+color: 888896
+research: bauxite
+hiddenOnPlanets: [serpulo, erekir]
