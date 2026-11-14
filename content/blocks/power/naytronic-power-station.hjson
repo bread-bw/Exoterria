@@ -22,7 +22,7 @@ explosionDamage: 850
 explodeEffect: [scatheExplosion, massiveExplosion, impactReactorExplosion]
 fuelItem: sulfur
 consumes: {
-  liquid: [
+  liquids: [
   water/2
   methane/1.5
   ]

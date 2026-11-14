@@ -1,0 +1,13 @@
+type: Junction
+name: EMP Module
+description: Used as an attachment for mechs to allow the firing of EMPs.
+size: 1
+customShadow: true
+placeablePlayer: false
+requirements: [
+  iron/20
+  platinum/5
+]
+databaseTag: unitpart
+research: mech-production-facility
+researchCostMultiplier: 0.25

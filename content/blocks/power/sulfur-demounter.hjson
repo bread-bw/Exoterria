@@ -12,7 +12,7 @@ requirements: [
   capper/350
 ]
 consumes: {
-  liquid: [
+  liquids: [
     plasticine/0.45
   ]
   items: [

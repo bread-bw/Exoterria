@@ -21,7 +21,7 @@ explosionDamage: 3500
 explodeEffect: [scatheExplosion, massiveExplosion, impactReactorExplosion]
 fuelItem: uranium-238
 consumes: {
-  liquid: [
+  liquids: [
   plasticine/2
   water/1.5
   ]

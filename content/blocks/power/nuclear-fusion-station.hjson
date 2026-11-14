@@ -20,7 +20,7 @@ explosionDamage: 45
 explodeEffect: [impactReactorExplosion]
 fuelItem: uranium-240
 consumes: {
-  liquid: [
+  liquids: [
   plasticine/3
   water/2
   ]

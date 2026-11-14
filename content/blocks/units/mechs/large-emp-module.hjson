@@ -1,0 +1,14 @@
+type: Junction
+name: Large EMP Module
+description: Used as an attachment for mechs to allow the firing of EMPs.
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  iron/115
+  sulfur/30
+  platinum/20
+]
+databaseTag: unitpart
+research: emp-module
+researchCostMultiplier: 0.25

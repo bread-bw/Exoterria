@@ -1,0 +1,11 @@
+type: Junction
+name: EMP Module
+description: Used as an attachment for air units to allow the use of autocanons.
+placeablePlayer: false
+requirements: [
+  aluminium/20
+  capper/5
+]
+databaseTag: unitpart
+research: air-production-facility
+researchCostMultiplier: 0.25
