@@ -17,15 +17,15 @@ abilities: [
   {
     type: UnitSpawnAbility
     unit: preecher-drone
-    spawnTime: 240
-    spawnX: 6
+    spawnTime: 460
+    spawnY: 6
   }
 ]
 weapons: [
     {
       name: syn-gun
       reload: 2
-      x: 2
+      x: 4
       y: 2
       top: false
       mirror: true

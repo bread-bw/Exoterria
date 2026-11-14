@@ -4,7 +4,7 @@ description: Fires pelting munitions alongside EMP sticky bombs. Gained the abil
 speed: 0.52
 flying: false
 health: 6350
-armor: 16
+armor: 12
 hitSize: 39
 canBoost: true
 boostMultiplier: 1.35

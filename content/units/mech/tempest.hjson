@@ -4,8 +4,7 @@ description: Fires pelting munitions alongside  EMP sticky bombs
 speed: 0.6
 flying: false
 health: 2650
-armor: 8
-hitSize: 24
+armor: 7
 outlineColor: 44413c
 mechLegColor: 44413c
 stepSound: mechStepSmall

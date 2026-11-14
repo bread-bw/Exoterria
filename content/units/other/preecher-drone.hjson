@@ -1,6 +1,5 @@
 type: flying
 name: Preecher
-aiController: SuicideAI
 description: Suicide drone.
 speed: 4
 accel: 0.5
@@ -14,6 +13,8 @@ armor: 1
 engineOffset: 2
 flying: true
 faceTarget: true
+range: 5
+lifetime: 150
 weapons: [
   {
     reload: 60

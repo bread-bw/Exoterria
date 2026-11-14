@@ -8,7 +8,7 @@ outlineColor: 44413c
 speed: 0.95
 rotateSpeed: 2
 health: 680
-armor: 6
+armor: 4
 itemCapacity: 0
 hitSize: 16
 treadRects: [
