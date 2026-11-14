@@ -1,0 +1,42 @@
+type: ConsumeGenerator
+name: Sulfur Demounter
+description: Uses plasticine to un mount sulfur protons, creating decent bits of non volatile energy.
+size: 3
+category: power
+research: methane-dynamo
+squareSprite: false
+requirements: [
+  sulfur/120
+  cobalt/60
+  zinc/150
+  capper/350
+]
+consumes: {
+  liquid: [
+    plasticine/0.45
+  ]
+  items: [
+    sulfur/2
+  ]
+}
+powerProduction: 4.21
+itemDuration: 120
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.02
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+researchCostMultiplier: 0.5

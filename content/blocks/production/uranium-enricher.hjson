@@ -30,7 +30,7 @@ requirements: [
   sulfur/55
   nickel/125
   silicon/300
-  alumunium/150
+  aluminium/150
 ]
 ambientSound: loopGrind
 ambientSoundVolume: 0.08

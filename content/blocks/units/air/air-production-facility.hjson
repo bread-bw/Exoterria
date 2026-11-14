@@ -1,0 +1,40 @@
+researchCostMultiplier: 0.4
+type: UnitAssembler
+name: Air Production facility
+description: Creates air based units using payloads. Requires power.
+size: 7
+category: units
+droneType: drone-a
+research: core-equinox
+requirements: [
+  aluminium/100
+  platinum/55
+  iron/30
+  silicon/50
+]
+plans: [
+   {
+    type: AssemblerUnitPlan
+    unit: syndicate
+    requirements: [
+      exoterria-small-magazine/1
+      exoterria-aluminium-wall/3
+    ]
+    time: 900
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: sygnet
+    requirements: [
+      exoterria-small-magazine/2
+      exoterria-aluminium-wall-large/4
+      exoterria-platinum-wall/1
+    ]
+    time: 1550
+  }
+]
+squareSprite: false
+consumes: {
+  power: 1.90
+}
+areaSize: 13

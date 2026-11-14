@@ -1,0 +1,59 @@
+type: NuclearReactor
+name: Uranium Fission Power Plant
+description: The big guns alright.
+hasPower: true
+hasLiquids: true
+hasItems: true
+explodeSound: explosionReactorThorium
+explosionShake: 12
+ambientSound: loopHum
+ambientSoundVolume: 0.26
+itemCapacity: 30
+liquidCapacity: 450
+itemDuration: 350
+powerProduction: 654.221
+heating: 0.01
+squareSprite: false
+smokeThreshold: 0.6
+flashThreshold: 0.75
+explosionRadius: 70
+explosionDamage: 3500
+explodeEffect: [scatheExplosion, massiveExplosion, impactReactorExplosion]
+fuelItem: uranium-238
+consumes: {
+  liquid: [
+  plasticine/2
+  water/1.5
+  ]
+  items: [
+    sulfur/3
+    uranium-238/1.5
+  ]
+}
+requirements: [
+  platinum/1250
+  aluminium/1000
+  cobalt/950
+  steel/500
+  uranium/150
+  silicon/350
+]
+category: power
+research: naytronic-power-station
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: plasticine
+      padding: 4
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+type: NuclearReactor
+name: Nuclear Fusion Power Station
+description: ggs.
+hasPower: true
+hasLiquids: true
+hasItems: true
+explosionShake: 2
+ambientSound: loopHum
+ambientSoundVolume: 0.42
+itemCapacity: 30
+liquidCapacity: 450
+itemDuration: 350
+powerProduction: 1521.2
+heating: 0.09
+squareSprite: false
+smokeThreshold: 0.1
+flashThreshold: 0.3
+explosionRadius: 10
+explosionDamage: 45
+explodeEffect: [impactReactorExplosion]
+fuelItem: uranium-240
+consumes: {
+  liquid: [
+  plasticine/3
+  water/2
+  ]
+  items: [
+    uranium-238/4
+    uranium-240/2
+  ]
+}
+requirements: [
+  platinum/2250
+  aluminium/1500
+  cobalt/1050
+  steel/650
+  uranium/250
+  silicon/450
+  sulfur/320
+]
+category: power
+research: uranium-fission-plant

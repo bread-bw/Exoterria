@@ -81,3 +81,4 @@ stepSoundVolume: 0.35
     }
 ]
 researchCostMultiplier: 1.5
+research: tempest

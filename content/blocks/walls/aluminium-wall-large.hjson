@@ -1,0 +1,14 @@
+type: Wall
+name: Large Aluminium Wall
+description: A good? 2x2 wall.
+size: 2
+armor: 0
+health: 3850
+squareSprite: true
+requirements: [
+  aluminium/20
+  bauxite/5
+]
+research: aluminium-wall
+category: defense
+researchCostMultiplier: 0.5

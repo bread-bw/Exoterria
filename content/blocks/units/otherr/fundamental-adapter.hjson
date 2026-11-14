@@ -1,0 +1,17 @@
+type: UnitAssemblerModule
+name: Fundamental Adapter
+description: Increases an assemblers' tier by 2 when placed next to its bounding box. May be used as an additional payload input.
+size: 3
+category: units
+research: rudimentary-adapter
+requirements: [
+  platinum/220
+  bauxite/120
+  steel/80
+  silicon/20
+]
+tier: 2
+consumes: {
+  power: 2.5
+}
+researchCostMultiplier: 0.4

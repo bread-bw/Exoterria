@@ -1,0 +1,18 @@
+type: UnitAssemblerModule
+name: Exotential Adapter
+description: Increases an assemblers' tier by 3 when placed next to its bounding box. May be used as an additional payload input.
+size: 4
+category: units
+research: fundamental-adapter
+requirements: [
+  platinum/120
+  aluminum/230
+  steel/320
+  silicon/45
+  cobalt/120
+]
+tier: 3
+consumes: {
+  power: 3.64
+}
+researchCostMultiplier: 0.4

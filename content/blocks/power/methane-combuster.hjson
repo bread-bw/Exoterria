@@ -1,0 +1,24 @@
+type: ConsumeGenerator
+name: Methane Combuster
+description: Burns methane to create powahhh more efficiently with some liquid sulfur.
+size: 2
+category: power
+research: sulfur-demounter
+squareSprite: false
+requirements: [
+  iron/120
+  cobalt/75
+  bauxite/50
+]
+consumes: {
+  liquid: [
+  methane/0.6
+  melted-sulfur/0.7
+]
+}
+powerProduction: 6.12
+itemDuration: 35
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.02
+researchCostMultiplier: 0.5

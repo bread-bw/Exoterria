@@ -31,10 +31,5 @@ weapons: [
     }
   }
 ]
-research: {
-  parent: tank-production-facility
-  objectives: [ 
-    tank-production-facility
-  ]
-}
+research: truquinox
 researchCostMultiplier: 1.5

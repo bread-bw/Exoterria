@@ -1,0 +1,58 @@
+type: NuclearReactor
+name: Naytronic Power Station
+description: Uses Naytroics 6th law to destablize petroleum atoms, alongside methane and cobalt as the catalysts. Requires extensive use of water to prevent explosion.
+researchCostMultiplier: 0.05
+hasPower: true
+hasLiquids: true
+hasItems: true
+explodeSound: explosionReactorThorium
+explosionShake: 4
+ambientSound: loopHum
+ambientSoundVolume: 0.26
+itemCapacity: 35
+liquidCapacity: 190
+itemDuration: 259
+powerProduction: 43.2
+heating: 0.003
+squareSprite: false
+smokeThreshold: 0.4
+flashThreshold: 0.7
+explosionRadius: 35
+explosionDamage: 850
+explodeEffect: [scatheExplosion, massiveExplosion, impactReactorExplosion]
+fuelItem: sulfur
+consumes: {
+  liquid: [
+  water/2
+  methane/1.5
+  ]
+  items: [
+    sulfur/2
+  ]
+}
+requirements: [
+  capper/850
+  zinc/850
+  cobalt/600
+  steel/365
+  sulfur/205
+]
+category: power
+research: sulfur-demounter
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 4
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

@@ -1,21 +1,30 @@
-type: flying
-name: Preecher
-description: Suicide drone.
-controller: SuicideAI
-speed: 4
-accel: 0.5
-drag: 0.03
-health: 265
-alwaysUnlocked: false
-itemCapacity: 35
-rotateSpeed: 4
-hitSize: 2
-armor: 1
-engineOffset: 2
+type: missile
+physics: false
+template: MissileUnitType
 flying: true
+speed: 4.3
+missileAccelTime: 25
+useUnitCap: false
+engineSize: 0.35
+engineOffset: 2.5
+lifetime: 30
+rotateSpeed: 2.8
+hitSize: 3
+trailLength: 3
+autoFindTarget: false
+homingPower: 0
+homingDelay: 0
+circleTarget: false
 faceTarget: true
+health: 450
+trailColor: 7a7564
+aimDst: 6
+drawCell: false
+outlines: true
+outlineRadius: 2
+outlineColor: 44413c
 range: 5
-lifetime: 45
+hidden: true  
 weapons: [
   {
     reload: 60
@@ -25,8 +34,8 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 145
-      splashDamageRadius: 34
-    }
-  }
+      splashDamage: 82
+      splashDamageRadius: 31
+      }
+   } 
 ]

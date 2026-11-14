@@ -32,10 +32,5 @@ weapons: [
     }
   }
 ]
-research: {
-  parent: tank-production-facility
-  objectives: [ 
-    tank-production-facility
-  ]
-}
+research: trinnectolops
 researchCostMultiplier: 1.5

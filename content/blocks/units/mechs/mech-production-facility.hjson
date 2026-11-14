@@ -1,0 +1,51 @@
+researchCostMultiplier: 0.6
+type: UnitAssembler
+  name: Mech Production facility
+  description: Creates mechatronic units using payloads. Requires power.
+size: 7
+category: units
+droneType: drone-a
+research: core-equinox
+requirements: [
+  nickel/100
+  bauxite/55
+  zinc/30
+  cobalt/50
+]
+plans: [
+   {
+    type: AssemblerUnitPlan
+    unit: pioneer
+    requirements: [
+      exoterria-emp-module/1
+      exoterria-capper-wall-large/4
+    ]
+    time: 1250
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: tempest
+    requirements: [
+      exoterria-emp-module/1
+      exoterria-cobalt-wall/6
+      exoterria-zinc-wall/3
+    ]
+    time: 1900
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: vanguard
+    requirements: [
+      exoterria-large-emp-module/1
+      exoterria-platinum-wall-large/3
+      exoterria-zinc-wall-large/2
+      exoterria-cobalt-wall-large/4
+    ]
+    time: 2605
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2.35
+}
+areaSize: 17

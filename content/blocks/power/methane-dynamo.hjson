@@ -1,5 +1,5 @@
 type: ConsumeGenerator
-name: Atmospheric Generator
+name: Methane Dynamo
 description: Burns methane to create powahhh.
 size: 1
 category: power
@@ -12,7 +12,7 @@ requirements: [
 consumes: {
   liquid: methane/0.2
 }
-powerProduction: 0.35
+powerProduction: 0.43
 itemDuration: 90
 generateEffect: generatespark
 ambientSound: smelter
