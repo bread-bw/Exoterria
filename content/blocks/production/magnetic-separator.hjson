@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Sulfur Solidifier
+description: Cools down the sulfur, due to inefficiencies it outputs Inpure Methane.
+size: 2
+scaledHealth: 100
+squareSprite: false
+craftEffect: smeltsmoke
+outputItem: sulfur/0.75
+outputLiquid: inpure-methane/0.45
+consumes: {
+  liquids: [
+    melted-sulfur/1.1
+    water/2.1
+  ]
+}
+craftTime: 160
+category: crafting
+research: gas-freker
+
+requirements: [
+  copper-nickel/30
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

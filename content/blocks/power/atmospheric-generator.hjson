@@ -6,7 +6,7 @@ category: power
 research: gaseous-extractor
 squareSprite: false
 requirements: [
-  platinum/20
+  zinc/20
   capper/35
 ]
 consumes: {

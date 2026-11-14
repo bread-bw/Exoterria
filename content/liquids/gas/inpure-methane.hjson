@@ -1,0 +1,19 @@
+name: Inpure Methane
+description: Used to power up countless exoterrian architexture. 
+heatCapacity: 24
+explosiveness: 0.4
+temperature: 1
+coolant: false
+gas: true
+color: ffffff00
+flammability: 1.2
+gasColor: ffffff00
+barColor: ffffff33
+incinerable: false
+lightColor: ffffff00
+research: {
+  parent: platinum
+  objectives: [ 
+    gaseous-extractor
+  ]
+}

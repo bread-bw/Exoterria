@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Steel Moulder
+description: Makes steel mate
+squareSprite: false
+craftEffect: smeltsmoke
+outputItem: steel/1
+outputLiquid: plasticine
+consumes: {
+  liquids: [
+    petroleum/1.1
+  ]
+  items: [
+    iron/2.3
+  ]
+  power: 0.25
+}
+craftTime: 55
+category: crafting
+research: gas-freker
+
+requirements: [
+  zinc/120
+  nickel/55
+  platinum/30
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

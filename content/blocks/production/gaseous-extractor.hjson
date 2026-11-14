@@ -5,7 +5,7 @@ description: Extracts methane from vent deposits.
 size: 3
 hasLiquids: true
 squareSprite: false
-outputLiquid: methane/0.33
+outputLiquid: inpure-methane/0.33
 displayEfficiencyScale: 1
 baseEfficiency: 0
 squareSprite: false

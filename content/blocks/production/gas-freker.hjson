@@ -1,0 +1,44 @@
+type: GenericCrafter
+name: Gas Freker
+description: Sorts out impurities from inpure methane to output other gases. Inefficient sadly.
+size: 3
+scaledHealth: 125
+squareSprite: false
+craftEffect: smeltsmoke
+drawer: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawLiquidOutputs
+  }
+]
+liquidOutputDirections: [
+  0 
+  1 
+  2
+]
+outputLiquids: [
+  methane/0.45
+  melted-sulfur/0.35
+  petroleum: 0.15
+]
+consumes: {
+  liquids: [
+    inpure-methane/2.3
+    water/1.1
+  ]
+  power: 0.65
+}
+craftTime: 55
+category: crafting
+research: gaseous-extractor
+
+requirements: [
+  zinc/120
+  nickel/55
+  platinum/30
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

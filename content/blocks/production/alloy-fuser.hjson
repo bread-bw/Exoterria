@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Alloy Fuser
+description: Uses the powah of magnet to fuse nickel platinum alloy, inefficent however...
+size: 2
+scaledHealth: 60
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  nickel-platinum-alloy/0.85
+]
+consumes: {
+  items: [
+    nickel/1.5
+    platinum/2
+  ]  
+  liquids: [
+    petroleum/1.45
+  ]
+  power: 1.2
+}
+craftTime: 124
+category: crafting
+research: magnetic-separator
+
+requirements: [
+  platinum/50
+  sulfur/15
+  capper/115
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

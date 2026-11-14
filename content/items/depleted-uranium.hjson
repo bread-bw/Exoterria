@@ -1,0 +1,9 @@
+name: Depleted Uranium
+description: "Used in armouring but thats about it."
+hardness: 4.2
+cost: 2.3
+radioactivity: 0.43
+alwaysUnlocked: false
+color: 8f8d87
+research: uranium-238
+hiddenOnPlanets: [serpulo, erekir]

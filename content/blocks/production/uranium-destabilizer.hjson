@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Uranium Destabilizer
+description: Uses fission to split and enrich uranium 238 into 240.
+size: 3
+scaledHealth: 245
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  uranium-238/1.2
+  inpure-methane/0.35
+]
+consumes: {
+  items: [
+    uranium/1.5
+  ]  
+  liquids: [
+    petroleum/1.45
+    melted-sulfur/3 
+  ]
+  power: 2.1
+}
+craftTime: 215
+category: crafting
+research: gas-freker
+
+requirements: [
+  platinum/315
+  sulfur/55
+  nickel/115
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

@@ -1,0 +1,6 @@
+type :  OreBlock  
+localizedName : Iron
+itemDrop :  iron
+hasColor : true 
+mapColor :  8f8d87  
+variants : 2

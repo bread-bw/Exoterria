@@ -1,0 +1,9 @@
+name: Uranium 240
+description: "Used as reactor fuel."
+hardness: 2.3
+cost: 3.1
+radioactivity: 2
+alwaysUnlocked: false
+color: 8f8d87
+research: uranium-238
+hiddenOnPlanets: [serpulo, erekir]

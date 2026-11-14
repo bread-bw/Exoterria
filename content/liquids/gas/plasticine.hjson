@@ -1,0 +1,13 @@
+name: Plasticine
+description: yah mate its a gas alright.
+explosiveness: 1.4
+temperature: 0.34
+coolant: true
+gas: true
+color: ffffff00
+flammability: 0.2
+gasColor: ffffff00
+barColor: ffffff33
+incinerable: false
+lightColor: ffffff00
+research: methane

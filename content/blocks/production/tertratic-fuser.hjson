@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Tretratic Fuser
+description: Uses the powah of magnet and fission to fuse DU and platinum into an alloy.
+size: 4
+scaledHealth: 455
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  depleted-platnium-uranium-alloy/1.34
+]
+consumes: {
+  items: [
+    depleted-uranium/3
+    platinum/6
+    sulfur/2.2  
+  ]  
+  liquids: [
+    methane/1.45
+  ]
+  power: 2.2
+}
+craftTime: 124
+category: crafting
+research: uranium-enricher
+
+requirements: [
+  platinum/550
+  sulfur/650
+  nickel/340
+  uranium/215
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

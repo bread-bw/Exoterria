@@ -1,0 +1,9 @@
+name: Depleted Platnium-Uranium Alloy
+description: "Used for dat high tech shiii."
+hardness: 4.2
+cost: 2.3
+radioactivity: 1.2
+alwaysUnlocked: false
+color: 8f8d87
+research: depleted-uranium
+hiddenOnPlanets: [serpulo, erekir]
