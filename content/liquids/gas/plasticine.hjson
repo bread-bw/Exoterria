@@ -1,7 +1,7 @@
 name: Plasticine
 description: yah mate its a gas alright.
 explosiveness: 1.4
-temperature: 0.34
+temperature: 0.12
 coolant: true
 gas: true
 color: ffffff00
