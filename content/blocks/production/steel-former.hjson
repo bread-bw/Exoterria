@@ -26,7 +26,7 @@ requirements: [
   steel/55
   cobalt/60
   capper/120
-  zince/335
+  zinc/335
 ]
 ambientSound: loopGrind
 ambientSoundVolume: 0.08
