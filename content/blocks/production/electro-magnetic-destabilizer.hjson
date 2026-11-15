@@ -23,7 +23,7 @@ craftTime: 92
 category: crafting
 research: magnetic-separator
 requirements: [
-  silicon/105
+  ex-silicon/105
   platinum/55
   steel/80
   nickel/120

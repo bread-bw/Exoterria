@@ -31,7 +31,7 @@ requirements: [
   platinum/250
   sulfur/50
   cobalt/120
-  silicon/120
+  ex-silicon/120
 ]
 ambientSound: loopGrind
 ambientSoundVolume: 0.08

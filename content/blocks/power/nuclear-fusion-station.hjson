@@ -35,7 +35,7 @@ requirements: [
   cobalt/1050
   steel/650
   uranium/250
-  silicon/450
+  ex-silicon/450
   sulfur/320
 ]
 category: power

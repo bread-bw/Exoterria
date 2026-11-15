@@ -29,7 +29,7 @@ requirements: [
   uranium/105
   sulfur/55
   nickel/125
-  silicon/300
+  ex-silicon/300
   aluminium/150
 ]
 ambientSound: loopGrind

@@ -6,7 +6,7 @@ scaledHealth: 125
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems:[
-    silicon/2
+    ex-silicon/2
     bauxite/1
 ] 
 consumes: {

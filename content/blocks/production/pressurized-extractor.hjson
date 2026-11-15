@@ -17,7 +17,7 @@ requirements: [
   cobalt/70
   platinum/45
   aluminium/30
-  silicon/20
+  ex-silicon/20
 ]
 ambientSound: hum
 ambientSoundVolume: 0.07

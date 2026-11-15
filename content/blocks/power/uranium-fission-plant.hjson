@@ -36,7 +36,7 @@ requirements: [
   cobalt/950
   steel/500
   uranium/150
-  silicon/350
+  ex-silicon/350
 ]
 category: power
 research: naytronic-power-station

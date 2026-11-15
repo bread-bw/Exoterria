@@ -40,6 +40,7 @@ requirements: [
   sulfur/120
   bauxite/55
   iron/40
+  bauxite/250
 ]
 ambientSound: loopDifferential
 ambientSoundVolume: 0.1

@@ -109,11 +109,4 @@ defaultCore: core-equinox
 parent: sun
 solarSystem: sun
 launchCandidates: []
-itemWhitelist: [
-  "capper",
-  "zinc",  
-  "platinum",
-  "copper-nickel", 
-  "nickel", 
-  "scrap"
-]
+
