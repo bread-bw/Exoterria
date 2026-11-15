@@ -34,6 +34,7 @@ weapons: [
 	   knockback: 1.1
      damage: 2
      status: wet
+    }
   }
   {
     x: 4
