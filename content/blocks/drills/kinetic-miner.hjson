@@ -8,9 +8,6 @@ tier: 1
 drillTime: 280
 drawMineItem: true
 alwaysUnlocked: false
-requirements: [
-  copper-nickel/12
-]
 category: production
 research: {
   parent: core-equinox
@@ -18,3 +15,6 @@ research: {
     copper-nickel/30
   ]
 }
+requirements: [
+  copper-nickel/12
+]
