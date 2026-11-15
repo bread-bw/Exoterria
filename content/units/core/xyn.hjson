@@ -19,10 +19,10 @@ buildSpeed: 0.4
 drag: 0.4
 itemCapacity: 25
 alwaysUnlocked: true
-outlineColor: 42413e
+outlineColor: 3e3e4c
 weapons: [
   {
-    x: -4
+    x: -5.5
     y: -0.5
     reload: 4
     mirror: false
@@ -43,7 +43,7 @@ weapons: [
     }
   }
   {
-    x: 4
+    x: 5
     y: -0.5
     reload: 120
     mirror: false
