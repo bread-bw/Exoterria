@@ -116,9 +116,9 @@ ammoTypes: {
     pierce: true
     pierceCap: 1
     pierceDamageFactor: 135
-    backColor: e0c350
-    frontColor: d4bd5c
-    trailColor: d4bd5c
+    backColor: e5a93b
+    frontColor: e87a3e
+    trailColor: e87a3e
     trailEffect: fireSmoke
     trailLength: 7
     trailWidth: 2
@@ -139,9 +139,9 @@ ammoTypes: {
     shootEffect: artilleryTrail
     hitEffect: hitBulletSmall
     despawnEffect: none
-    backColor: e0c350
-    frontColor: d4bd5c
-    trailColor: e0c350
+    backColor: e5a93b
+    frontColor: e87a3e
+    trailColor: e5a93b
     trailLength: 3
     trailWidth: 2
     fragLifeMin: 1
@@ -154,9 +154,9 @@ ammoTypes: {
       type: BasicBulletType
       damage: 9
       pierce: true
-      backColor: e0c350
-      frontColor: d4bd5c
-      trailColor: d4bd5c
+      backColor: e5a93b
+      frontColor: e87a3e
+      trailColor: e87a3e
       trailLength: 2
       trailWidth: 1      
       incendChance: 0.5
@@ -183,8 +183,8 @@ ammoTypes: {
       sticky: true
       stickyExtraLifetime: 5
       pierce: true
-      backColor: e0c350
-      frontColor: d4bd5c
+      backColor: e5a93b
+      frontColor: e87a3e
       buildingDamageMultiplier: 0.75
       pierceBuilding: false
     }
