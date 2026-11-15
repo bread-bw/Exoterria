@@ -34,8 +34,8 @@ weapons: [
 	   knockback: 1.1
      damage: 2
      status: wet
-    }
-    {
+  }
+  {
     x: 4
     y: 0
     reload: 120
@@ -64,8 +64,9 @@ weapons: [
       shootEffect: shootBig2
       smokeEffect: shootBigSmoke
       hitEffect: blastExplosion
-      }
     }
+  }
+]
 abilities: [
   {
     type: RepairFieldAbility
