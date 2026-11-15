@@ -1,24 +1,20 @@
-name : Kinetic Miner
-description : Uses Kinetic energy to mine resources from the ground. 
-type :  Drill
-size : 2  
-tier : 1  
-drillTime : 245  
-alwaysUnlocked : false
+name: Kinetic Drill
+description: First tier of drilling technology.Extracts items at a slow but steady rate.
+type: Drill
+hasLiquids: false
+size: 2
+itemCapacity: 15
+tier: 1
+drillTime: 280
+drawMineItem: true
+alwaysUnlocked: false
 requirements: [
-  copper-nickel/40
+  copper-nickel/12
 ]
-drillEffect: {
-  type: WaveEffect
-  sizeFrom: 0.1
-  sizeTo: 37
-  strokeFrom: 0.8
-  strokeTo: 0.1
-  colorFrom: 8f8d87
-  colorTo: 6b6a66
-  lifetime: 35
-}
-shake: 0.34
 category: production
-research: core-equinox
-researchCostMultiplier: 0.5
+research: {
+  parent: core-equinox
+  requirements: [
+    copper-nickel/30
+  ]
+}
