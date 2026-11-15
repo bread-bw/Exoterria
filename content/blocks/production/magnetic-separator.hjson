@@ -1,14 +1,15 @@
 type: GenericCrafter
 name: Magnetic Separator
-description: Uses the powah of magnet and meltin to separate Copper from the Nickel, inefficent however...
+description: Uses the powah of magnet and meltin to separate Copper from the Nickel, inefficent however. Outputs some slag as a by-product. 
 size: 2
 scaledHealth: 120
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems: [
   nickel/1
-  capper/1.6
+  capper/2
 ]
+outputLiquid: slag/0.5
 consumes: {
   items: [
     copper-nickel/3
