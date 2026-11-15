@@ -7,8 +7,7 @@ drawer: {
   basePrefix: foundation-
 }
 category: turret
-outlineColor: 42413e
-outlineColor: 42413e
+outlineColor: 3e3e4c
 liquidConsumed: 0.1
 targetInterval: 5
 targetUnderBlocks: false

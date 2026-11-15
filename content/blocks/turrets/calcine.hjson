@@ -17,7 +17,7 @@ requirements: [
     cobalt/200
     sulfur/350
 ]
-outlineColor: 44413c
+outlineColor: 3e3e4c
 shootType: {
   type: PointLaserBulletType
   damage: 35                 
