@@ -42,5 +42,5 @@ weapons: [
 	  }
     }    
   ]
-research: pioneer
+research: air-production-facility
 researchCostMultiplier: 1.2

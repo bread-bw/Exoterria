@@ -1,5 +1,5 @@
 type: Junction
-name: EMP Module
+name:  Small-Magazine
 description: Used as an attachment for air units to allow the use of autocanons.
 placeablePlayer: false
 requirements: [

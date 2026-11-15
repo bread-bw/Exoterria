@@ -1,6 +1,6 @@
 type: flying
 name: Sygnet
-description: A light, nimble plane with little armour and nice auto canons. Has a suicide drone.
+description: A light, nimble plane with little armour and nice auto canons.
 speed: 3.1
 accel: 0.5
 drag: 0.12
@@ -13,14 +13,6 @@ armor: 5
 engineOffset: 2
 flying: true
 faceTarget: false
-abilities: [
-  {
-    type: UnitSpawnAbility
-    unit: preecher-drone
-    spawnTime: 460
-    spawnY: 6
-  }
-]
 weapons: [
     {
       name: syn-gun
