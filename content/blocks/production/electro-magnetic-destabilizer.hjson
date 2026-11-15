@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Électro-Magnetic Destabilizer
-description: Uses the powah of magnet to separate Copper from the Nickel, The charge ends up producing zinc as well.
+description: Uses the powah of elctro magnet to separate Copper from the Nickel, The charge ends up producing zinc as well.
 size: 3
 scaledHealth: 135
 squareSprite: false
@@ -17,27 +17,11 @@ consumes: {
   liquids: [
     plasticine/1.45
   ]
+  power: 1.3
 }
 craftTime: 92
 category: crafting
 research: magnetic-separator
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: slag
-      padding: 6
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-}
 requirements: [
   silicon/105
   platinum/55

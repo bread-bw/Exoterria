@@ -1,0 +1,44 @@
+type: GenericCrafter
+name: Tratractic Freker
+description: Heat treats methane impurties into liquids.
+size: 3
+scaledHealth: 125
+squareSprite: false
+craftEffect: smeltsmoke
+drawer: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawLiquidOutputs
+  }
+]
+liquidOutputDirections: [
+  0 
+  1 
+  2
+]
+outputLiquids: [
+  methane/2.1
+  melted-sulfur/1.35
+  petroleum/0.65
+]
+consumes: {
+  liquids: [
+    inpure-methane/3.1
+    slag/2.1
+  ]
+  heat: 2.1
+}
+craftTime: 95
+category: crafting
+research: gas-freker
+
+requirements: [
+  sulfur/120
+  bauxite/55
+  iron/40
+]
+ambientSound: loopDifferential
+ambientSoundVolume: 0.1
+researchCostMultiplier: 0.5

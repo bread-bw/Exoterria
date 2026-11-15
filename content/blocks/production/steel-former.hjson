@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Steel Former 
+size: 3
+description: Uses heat and centrifugal force to make steel from iron and petroleum.
+squareSprite: false
+craftEffect: smeltsmoke
+outputItem: steel/3
+outputLiquid: plasticine/0.55
+consumes: {
+  heat: 2.1
+  liquids: [
+    petroleum/1.9
+  ]
+  items: [
+    iron/4
+  ]
+  power: 3
+}
+craftTime: 75
+category: crafting
+research: steel-moulder
+
+requirements: [
+  aluminium/120
+  steel/55
+  cobalt/60
+  capper/120
+  zince/335
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5

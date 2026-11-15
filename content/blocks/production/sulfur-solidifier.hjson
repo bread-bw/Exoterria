@@ -18,7 +18,9 @@ category: crafting
 research: gas-freker
 
 requirements: [
-  copper-nickel/30
+  bauxite/50
+  nickel/30
+  zinc/25
 ]
 ambientSound: loopGrind
 ambientSoundVolume: 0.08

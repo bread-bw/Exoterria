@@ -65,10 +65,10 @@ ammoTypes: {
     trailWidth: 2
     homingPower: 0.3
     intervalBullets: 2
-    bulletInterval: 45
+    bulletInterval:20
     intervalSpread: 10
     intervalBullet: {
-    intervalAngle: 135
+    intervalAngle: 35
     instantDisappear: false
     damage: 25
     despawnSound: spark
@@ -127,10 +127,10 @@ ammoTypes: {
     incendSpread: 10
     homingPower: 0.08
     intervalBullets: 4
-    bulletInterval: 55
+    bulletInterval: 10
     intervalRandomSpread: 20
     intervalBullet: {
-    intervalAngle: 145
+    intervalAngle: 35
     instantDisappear: false
     damage: 18
     incendChance: 0.7
