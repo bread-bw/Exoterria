@@ -22,7 +22,8 @@ treadRects: [
 weapons: [
     {
     x: 0
-    y: 1
+    y: 0
+    shootY: -1
     name: truquinox-turret
     reload: 155
     rotate: true
