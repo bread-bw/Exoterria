@@ -20,8 +20,24 @@ consumes: {
 }
 craftTime: 92
 category: crafting
-research: core-equinox
-
+research: magnetic-separator
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      padding: 6
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
 requirements: [
   silicon/105
   platinum/55
