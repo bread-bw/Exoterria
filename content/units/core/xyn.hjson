@@ -5,6 +5,9 @@ name: Xyn
 description: The main core unit of Core Equinox. Extremely well protected.
 health: 655
 armor: 5
+canBoost: true
+boostMultiplier: 1.65
+drag: 0.2
 mineFloor: true
 mineWalls: true
 speed: 1.1
