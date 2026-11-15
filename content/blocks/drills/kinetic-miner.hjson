@@ -5,7 +5,9 @@ size : 2
 tier : 1  
 drillTime : 245  
 alwaysUnlocked : false
-requirements : copper-nickel/15
+requirements: [
+  copper-nickel/40
+]
 drillEffect: {
   type: WaveEffect
   sizeFrom: 0.1
