@@ -8,6 +8,7 @@ drawer: {
 }
 reload: 73
 inaccuracy: 2
+shootY: -1
 shoot: {
   shots: 2
   shotDelay: 15
@@ -64,7 +65,7 @@ ammoTypes: {
     trailWidth: 2
     homingPower: 0.3
     intervalBullets: 2
-    bulletInterval: 15
+    bulletInterval: 45
     intervalSpread: 10
     intervalBullet: {
     intervalAngle: 135
@@ -126,7 +127,7 @@ ammoTypes: {
     incendSpread: 10
     homingPower: 0.08
     intervalBullets: 4
-    bulletInterval: 20
+    bulletInterval: 55
     intervalRandomSpread: 20
     intervalBullet: {
     intervalAngle: 145
