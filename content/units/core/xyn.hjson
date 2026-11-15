@@ -22,25 +22,28 @@ alwaysUnlocked: true
 outlineColor: 42413e
 weapons: [
   {
-    x: -4
+    x: -6
     y: 0
     reload: 4
     mirror: false
     rotate: false
     name: xyn-fluid-gun
-	  bullet: {
+	  recoil: 0.2
+    bullet: {
      type: LiquidBulletType
      liquid: water
    	 puddleSize: 4
 	   orbSize: 2
-	   boilTime: 3
+	   speed: 6
+     lifetime: 30
+     boilTime: 3
 	   knockback: 1.1
      damage: 2
      status: wet
     }
   }
   {
-    x: 4
+    x: 6
     y: 0
     reload: 120
     mirror: false
@@ -50,14 +53,15 @@ weapons: [
     inacuracy: 3
     shoot: {
       shots: 6
-      shotDelay: 2
+      shotDelay: 3
+      spread: 2
     }
     bullet: {
       type: ArtilleryBulletType
       width: 7
       height: 12
-      speed: 1
-      lifetime: 120
+      speed: 2
+      lifetime: 80
       frontColor: e87a3e
       backColor: e5a93b
       trailChance: -1
