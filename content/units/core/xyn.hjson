@@ -22,8 +22,8 @@ alwaysUnlocked: true
 outlineColor: 42413e
 weapons: [
   {
-    x: -7
-    y: 0
+    x: -4
+    y: -0.5
     reload: 4
     mirror: false
     rotate: false
@@ -43,8 +43,8 @@ weapons: [
     }
   }
   {
-    x: 7
-    y: 0
+    x: 4
+    y: -0.5
     reload: 120
     mirror: false
     rotate: false
