@@ -1,10 +1,13 @@
-type: GenericCrafter
+type: HeatCrafter
 name: Tratractic Freker
-description: Heat treats methane impurties into liquids.
+description: Heat treats methane impurties into liquids. Can use additional heat to increase efficieny slightly
 size: 3
 scaledHealth: 125
 squareSprite: false
 craftEffect: smeltsmoke
+heatRequirement: 3.2
+overheatScale: 0.8
+maxEfficiency: 2
 drawer: [
   {
     type: DrawDefault
@@ -28,7 +31,6 @@ consumes: {
     inpure-methane/3.1
     slag/2.1
   ]
-  heat: 2.1
 }
 craftTime: 95
 category: crafting

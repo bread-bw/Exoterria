@@ -1,13 +1,14 @@
-type: GenericCrafter
+type: HeatCrafter
 name: Steel Former 
 size: 3
-description: Uses heat and centrifugal force to make steel from iron and petroleum.
-squareSprite: false
+description: Uses heat and centrifugal force to make steel from iron and petroleum. Can be super heated to increase efficiency.
 craftEffect: smeltsmoke
 outputItem: steel/3
 outputLiquid: plasticine/0.55
+heatRequirement: 2.5
+overheatScale: 8
+maxEfficiency: 6
 consumes: {
-  heat: 2.1
   liquids: [
     petroleum/1.9
   ]

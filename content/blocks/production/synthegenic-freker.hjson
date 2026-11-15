@@ -1,0 +1,38 @@
+type: HeatCrafter
+name: Synthegenic Freker
+description: Uses heat and centrifugal force to make oil from water and impure methane in the presence of raw quartz. Can be super heated to increase efficiency. Reqires plasticine as a coolant.
+size: 4
+heatRequirement: 2.3
+overheatScale: 0.2
+maxEfficiency: 1
+scaledHealth: 780
+squareSprite: false
+craftEffect: smeltsmoke
+outputLiquids: [
+  oil/3.1
+]
+consumes: {
+  liquids: [
+    inpure-methane/4.0
+    water/2.86
+    plasticine/0.8
+  ]
+  items: [
+    raw-quartz/1
+  ]
+}
+craftTime: 55
+category: crafting
+research: gas-freker
+
+requirements: [
+  steel/450
+  aluminium/330
+  platinum/250
+  sulfur/50
+  cobalt/120
+  silicon/120
+]
+ambientSound: loopGrind
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5
