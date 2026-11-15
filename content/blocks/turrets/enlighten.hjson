@@ -34,6 +34,7 @@ requirements: [
     platinum/65
     zinc/20
 ]
+shootX: 1
 ammoTypes: {
   zinc: {
     type: FlakBulletType

@@ -34,12 +34,13 @@ stepSoundVolume: 0.35
           width: 6
           height: 8
           light: 3
-          lightColor: FF7700
+          lightColor: e87a3e
           trailLength: 4
-          trailColor: FF7700
+          trail: missileTrail
+          trailColor: e87a3e
           trailWidth: 2
-          backColor: FF7700
-          frontColor: FFB200
+          backColor: e87a3e
+          frontColor: e5a93b
         }
     }
     {

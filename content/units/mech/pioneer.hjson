@@ -5,7 +5,7 @@ speed: 0.7
 flying: false
 health: 715
 armor: 3
-hitSize: 10
+hitSize: 12
 outlineColor: 44413c
 mechLegColor: 44413c
 stepSound: mechStepSmall
@@ -34,12 +34,13 @@ stepSoundVolume: 0.35
           width: 5
           height: 7
           light: 3
-          lightColor: FF7700
+          lightColor: e5a93b
           trailLength: 4
-          trailColor: FF7700
+          trail: missileTrail
+          trailColor: e5a93b
           trailWidth: 2
-          backColor: FF7700
-          frontColor: FFB200
+          frontColor: e87a3e
+          backColor: e5a93b
         }
     }
     {

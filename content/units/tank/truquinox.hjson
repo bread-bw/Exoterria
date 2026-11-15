@@ -10,7 +10,7 @@ rotateSpeed: 2
 health: 680
 armor: 4
 itemCapacity: 0
-hitSize: 16
+hitSize: 14
 treadRects: [
   {
     x: 9

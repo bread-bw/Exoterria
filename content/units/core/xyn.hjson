@@ -1,45 +1,47 @@
-type: legs
-legCount: 6
-legLength: 10
-legSpeed: 0.1
-legForwardScl: 0.70
-legMoveSpace: 1
-hovering: true
+type: mech
+canBoost: true
 groundLayer: 60
 name: Xyn
-description: Protects the Equinox core. 
-health: 350
-armor: 1
-speed: 1.2
-hitSize: 12
-isEnemy: false
-mineSpeed: 4.2
+description: The main core unit of Core Equinox. Extremely well protected.
+health: 655
+armor: 5
 mineFloor: true
 mineWalls: true
-mineTier: 1
-buildSpeed: 1
-drag: 0.35
-itemCapacity: 30
+speed: 1.1
+hitSize: 13
+isEnemy: false
+mineSpeed: 2.1
+mineTier: 2
+buildSpeed: 0.4
+drag: 0.4
+itemCapacity: 25
 alwaysUnlocked: true
 outlineColor: 42413e
-abilities: [
-  {
-    type: ShieldArcAbility
-    radius: 70
-    regen: 0.12
-    cooldown: 440
-    max: 140
-    whenShooting: true
-  }
-]
 weapons: [
   {
-    x: 11
+    x: -4
+    y: 0
+    reload: 4
+    mirror: false
+    rotate: false
+    name: xyn-fluid-gun
+	  bullet: {
+     type: LiquidBulletType
+     liquid: water
+   	 puddleSize: 4
+	   orbSize: 2
+	   boilTime: 3
+	   knockback: 1.1
+     damage: 2
+     status: wet
+    }
+    {
+    x: 4
     y: 0
     reload: 120
     mirror: false
-    rotate: true
-    name: xyn-burst-gun
+    rotate: false
+    name: xyn-weapon
     shootSound: artillery
     inacuracy: 3
     shoot: {
@@ -52,11 +54,11 @@ weapons: [
       height: 12
       speed: 1
       lifetime: 120
-      frontColor: ffbe7f
-      backColor: d46f6b
+      frontColor: e87a3e
+      backColor: e5a93b
       trailChance: -1
       trailEffect: missileTrail
-      trailColor: d46f6b
+      trailColor: e5a93b
       splashDamage: 7
       splashDamageRadius: 20
       shootEffect: shootBig2
@@ -64,74 +66,12 @@ weapons: [
       hitEffect: blastExplosion
       }
     }
-    {
-    name: xyn-heavy
-    x: -11
-    y: 0
-    rotate: true
-    mirror: false
-    reload: 213
-    rotateSpeed: 1
-    shootSound: shoot-heavy-cannon
-    inacuracy: 1
-    shoot: {
-	  type: ShootSpread
-	  shots: 10
-	  spread: 2
-	  }	
-    bullet: {
-      type: BasicBulletType
-      width: 8
-      height: 5
-      frontColor: 696969
-      backColor: 672626
-      spin: 0
-      shrinkY: 0
-      shrinkX: 0
-      trailInterval: 3
-      speed: 2
-      lifetime: 90
-      damage: 5
-      pierce: true
-      pierceCap: 1
-      fragOnHit: true
-      fragBullets: 2
-      fragRandomSpread: 0
-      fragLifeMin: 1
-      fragLifeMax: 1
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      fragSpread: 90
-      fragAngle: 45
-      fragOnAbsorb: true
-      fragBullet: {
-        type: BasicBulletType
-        width: 4
-        height: 3
-        speed: 2
-        lifetime: 20
-        pierceCap: 4
-        damage: 2
-        pierce: true
-      }
-    } 
-    }
-    {
-    x: 4
-    y: 0
-    reload: 5
-    mirror: true
-    rotate: true
-    name: xyn-water-gun
-	  bullet: {
-     type: LiquidBulletType
-     liquid: water
-   	 puddleSize: 4
-	   orbSize: 2
-	   boilTime: 3
-	   knockback: 1
-     damage: 1
-     status: wet
-    }
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 15
+    max: 60
+    reload: 175
+    range: 155
   }
 ]
