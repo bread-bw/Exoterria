@@ -22,7 +22,7 @@ alwaysUnlocked: true
 outlineColor: 42413e
 weapons: [
   {
-    x: -6
+    x: -7
     y: 0
     reload: 4
     mirror: false
@@ -43,7 +43,7 @@ weapons: [
     }
   }
   {
-    x: 6
+    x: 7
     y: 0
     reload: 120
     mirror: false
@@ -53,7 +53,7 @@ weapons: [
     inacuracy: 3
     shoot: {
       shots: 6
-      shotDelay: 3
+      shotDelay: 4
       spread: 2
     }
     bullet: {
