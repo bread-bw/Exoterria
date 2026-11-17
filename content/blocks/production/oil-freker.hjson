@@ -19,7 +19,8 @@ drawer: {
       type: DrawRegion
       suffix: -spinner
       rotateSprite: true
-      rotateSpeed: 0.4
+      rotateSpeed: 0.7
+      top: true
     }
     {
       type: DrawLiquidTile
