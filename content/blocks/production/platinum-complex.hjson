@@ -8,6 +8,20 @@ craftEffect: smeltsmoke
 outputItems: [
   platinum/1
 ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
 consumes: {
   items: [
     zinc/2

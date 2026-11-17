@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: Plasticine Freker
 description: Destablizes oil into plasticine. Needs Sulfur and Bauxite.
-size: 3
+size: 2
 scaledHealth: 176
 squareSprite: false
 craftEffect: smeltsmoke
