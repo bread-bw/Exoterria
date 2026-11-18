@@ -1,0 +1,14 @@
+type: Duct
+name: Pressurized Shaft
+description: A shaft that uses air pressure to transport items to designated areas.
+category: distribution
+alwaysUnlocked: true
+research: core-equinox
+researchCost: [
+  copper-nickel/10
+]
+speed: 4
+health: 15
+requirements: [
+  copper-nickel/1
+]

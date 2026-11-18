@@ -8,7 +8,7 @@ requirements: [
   platinum/220
   bauxite/120
   steel/80
-  silicon/20
+  ex-silicon/20
 ]
 tier: 2
 consumes: {

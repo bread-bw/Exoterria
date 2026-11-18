@@ -8,7 +8,7 @@ requirements: [
   platinum/120
   aluminium/230
   steel/320
-  silicon/45
+  ex-silicon/45
   cobalt/120
 ]
 tier: 3

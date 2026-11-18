@@ -13,6 +13,21 @@ minEfficiency: 1
 researchCostMultiplier: 0.5
 category: crafting
 research: core-equinox
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -fan
+      rotateSprite: true
+      rotateSpeed: 2.12
+      top: true
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
 requirements: [
   capper/70
   platinum/45

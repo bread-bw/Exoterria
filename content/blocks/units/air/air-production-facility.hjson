@@ -10,7 +10,7 @@ requirements: [
   aluminium/100
   platinum/55
   iron/30
-  silicon/50
+  ex-silicon/50
 ]
 plans: [
    {
