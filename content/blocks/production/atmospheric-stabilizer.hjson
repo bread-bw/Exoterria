@@ -23,7 +23,7 @@ outputLiquids: [
 ]
 consumes: {
   items: [
-    sulfur/1.5
+    sulfur/2
   ]
   power: 0.9
 }

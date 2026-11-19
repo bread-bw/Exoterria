@@ -14,7 +14,7 @@ consumes: {
     plasticine/0.2
   ]
   items: [
-    silica/3.2
+    silica/3
   ]
 }
 craftTime: 180

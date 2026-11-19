@@ -6,7 +6,7 @@ scaledHealth: 125
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems:[
-    silica/1.4
+    silica/1
     sulfur/1
 ] 
 consumes: {
@@ -14,7 +14,7 @@ consumes: {
     water/0.2
   ]
   items: [
-    raw-quartz/1.5
+    raw-quartz/2
   ]
 }
 craftTime: 120

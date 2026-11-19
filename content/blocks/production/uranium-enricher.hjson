@@ -11,7 +11,7 @@ outputItems: [
 ]
 consumes: {
   items: [
-    uranium-238/1.5
+    uranium-238/2
   ]  
   liquids: [
     petroleum/1.45

@@ -6,13 +6,13 @@ scaledHealth: 135
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems: [
-  nickel/2.4
+  nickel/2
   capper/4
   zinc/1
 ]
 consumes: {
   items: [
-    copper-nickel/4.3
+    copper-nickel/4
   ]
   liquids: [
     plasticine/1.45

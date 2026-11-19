@@ -1,6 +1,6 @@
 name: Uranium
 description: "Holy man."
-hardness: 2.3
+hardness: 4
 cost: 1.3
 radioactivity: 0.75
 alwaysUnlocked: false

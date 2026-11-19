@@ -11,7 +11,7 @@ consumes: {
     petroleum/1.1
   ]
   items: [
-    iron/2.3
+    iron/2
   ]
   power: 0.25
 }
