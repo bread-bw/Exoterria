@@ -6,8 +6,8 @@ scaledHealth: 60
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems: [
-  cobalt/1.1
-  aluminia/2.3
+  cobalt/1
+  aluminia/2
 ]
 consumes: {
   items: [
@@ -17,7 +17,30 @@ consumes: {
 craftTime: 190
 category: crafting
 research: bauxite-crusher
-
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawPlasma
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      rotateSprite: true
+      rotateSpeed: 2.1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
 requirements: [
   steel/120
   capper/70
